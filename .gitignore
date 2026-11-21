@@ -84,7 +84,9 @@ transformers_cache/
 # =========================================
 # Embeddings and vector databases
 # =========================================
-data/vector_store/
+data/vector_store/*
+!data/vector_store/recipes.index
+!data/vector_store/recipes.json
 data/embeddings/
 faiss_index/
 *.faiss
@@ -131,3 +133,4 @@ reports/generated/
 # OS files
 # =========================================
 $RECYCLE.BIN/
+!data/vector_store/recipes.index
