@@ -1,16 +1,44 @@
 
+from functools import lru_cache
+
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
 
+@lru_cache(maxsize=2)
+def load_embedding_model(
+    model_name,
+    local_files_only=False
+):
+    """
+    Load and cache the multilingual embedding model.
+
+    Cloud deployment:
+        local_files_only=False allows downloading from Hugging Face.
+
+    Local offline use:
+        local_files_only=True uses an existing local model cache.
+    """
+
+    return SentenceTransformer(
+        model_name,
+        local_files_only=local_files_only
+    )
+
+
 class RecipeRetriever:
     """Retrieve Lebanese recipes using multilingual E5 and FAISS."""
 
-    def __init__(self, model_name="intfloat/multilingual-e5-small"):
-        self.model = SentenceTransformer(
+    def __init__(
+        self,
+        model_name="intfloat/multilingual-e5-small",
+        local_files_only=False
+    ):
+
+        self.model = load_embedding_model(
             model_name,
-            local_files_only=True
+            local_files_only
         )
 
         self.index = None
