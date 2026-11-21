@@ -1,0 +1,1292 @@
+{
+  "ingredients": [
+    {
+      "id": "ING001",
+      "names": {
+        "en": [
+          "tomato",
+          "tomatoes",
+          "cherry tomatoes",
+          "ripe tomatoes",
+          "chopped tomatoes",
+          "diced tomatoes"
+        ],
+        "ar": [
+          "بندورة",
+          "طماطم"
+        ],
+        "fr": [
+          "tomate",
+          "tomates"
+        ]
+      }
+    },
+    {
+      "id": "ING002",
+      "names": {
+        "en": [
+          "onion",
+          "onions",
+          "white onion",
+          "white onions",
+          "yellow onion",
+          "yellow onions",
+          "chopped onion",
+          "finely chopped onion",
+          "diced onion",
+          "sliced onion",
+          "large onion",
+          "large onions",
+          "small onion",
+          "red onion",
+          "red onions",
+          "medium onion",
+          "medium onions",
+          "caramelized onions"
+        ],
+        "ar": [
+          "بصل"
+        ],
+        "fr": [
+          "oignon",
+          "oignons"
+        ]
+      }
+    },
+    {
+      "id": "ING003",
+      "names": {
+        "en": [
+          "parsley",
+          "flat-leaf parsley",
+          "flat leaf parsley",
+          "Italian parsley",
+          "fresh parsley"
+        ],
+        "ar": [
+          "بقدونس"
+        ],
+        "fr": [
+          "persil"
+        ]
+      }
+    },
+    {
+      "id": "ING004",
+      "names": {
+        "en": [
+          "chickpeas",
+          "chickpea",
+          "garbanzo beans",
+          "chick pea",
+          "chick peas",
+          "dried chickpeas",
+          "dried chickpeas (not canned)",
+          "whole chickpeas"
+        ],
+        "ar": [
+          "حمص"
+        ],
+        "fr": [
+          "pois chiches"
+        ]
+      }
+    },
+    {
+      "id": "ING005",
+      "names": {
+        "en": [
+          "lentils",
+          "lentil",
+          "green lentils",
+          "coral lentils",
+          "brown lentils"
+        ],
+        "ar": [
+          "عدس"
+        ],
+        "fr": [
+          "lentilles"
+        ]
+      }
+    },
+    {
+      "id": "ING006",
+      "names": {
+        "en": [
+          "rice",
+          "basmati rice",
+          "short-grain rice",
+          "short grain rice",
+          "medium-grain rice"
+        ],
+        "ar": [
+          "رز",
+          "أرز"
+        ],
+        "fr": [
+          "riz"
+        ]
+      }
+    },
+    {
+      "id": "ING007",
+      "names": {
+        "en": [
+          "olive oil",
+          "extra virgin olive oil",
+          "extra-virgin olive oil",
+          "olive oils",
+          "regular olive oil"
+        ],
+        "ar": [
+          "زيت الزيتون"
+        ],
+        "fr": [
+          "huile d'olive"
+        ]
+      }
+    },
+    {
+      "id": "ING008",
+      "names": {
+        "en": [
+          "garlic",
+          "garlic cloves",
+          "garlic cloves minced",
+          "garlic cloves crushed",
+          "garlic cloves peeled",
+          "freshly peeled crushed garlic cloves",
+          "garlic clove",
+          "small garlic cloves"
+        ],
+        "ar": [
+          "ثوم"
+        ],
+        "fr": [
+          "ail"
+        ]
+      }
+    },
+    {
+      "id": "ING009",
+      "names": {
+        "en": [
+          "lemon",
+          "lemons",
+          "lemon juice",
+          "juice of lemon",
+          "juice of lemons",
+          "freshly squeezed lemon juice"
+        ],
+        "ar": [
+          "ليمون",
+          "حامض"
+        ],
+        "fr": [
+          "citron",
+          "citrons"
+        ]
+      }
+    },
+    {
+      "id": "ING010",
+      "names": {
+        "en": [
+          "cucumber",
+          "cucumbers"
+        ],
+        "ar": [
+          "خيار"
+        ],
+        "fr": [
+          "concombre",
+          "concombres"
+        ]
+      }
+    },
+    {
+      "id": "ING011",
+      "names": {
+        "en": [
+          "eggplant",
+          "aubergine",
+          "aubergines",
+          "eggplants",
+          "large globe aubergines",
+          "long eggplant"
+        ],
+        "ar": [
+          "باذنجان"
+        ],
+        "fr": [
+          "aubergine",
+          "aubergines"
+        ]
+      }
+    },
+    {
+      "id": "ING012",
+      "names": {
+        "en": [
+          "tahini",
+          "tahini paste"
+        ],
+        "ar": [
+          "طحينة"
+        ],
+        "fr": [
+          "tahini",
+          "tahin"
+        ]
+      }
+    },
+    {
+      "id": "ING013",
+      "names": {
+        "en": [
+          "pomegranate seeds",
+          "pomegranate seed"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING014",
+      "names": {
+        "en": [
+          "salt",
+          "sea salt flakes"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING015",
+      "names": {
+        "en": [
+          "black pepper",
+          "black peppercorns",
+          "ground black pepper",
+          "whole black peppercorns"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING016",
+      "names": {
+        "en": [
+          "white pepper",
+          "mild white pepper"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING017",
+      "names": {
+        "en": [
+          "pine nuts",
+          "pine nut",
+          "pines nuts"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING018",
+      "names": {
+        "en": [
+          "bulgur",
+          "bulgur wheat",
+          "cracked wheat",
+          "coarse bulgur wheat",
+          "bulgur cracked wheat",
+          "fine bulgur"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING019",
+      "names": {
+        "en": [
+          "flour",
+          "plain flour",
+          "plain white flour",
+          "all-purpose flour",
+          "multi-purpose flour",
+          "plain flour for dusting"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING020",
+      "names": {
+        "en": [
+          "water",
+          "iced water",
+          "boiled water",
+          "cold water",
+          "hot water"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING021",
+      "names": {
+        "en": [
+          "yeast",
+          "baker yeast",
+          "baker's yeast",
+          "baker’s yeast",
+          "instant yeast",
+          "dried active yeast"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING022",
+      "names": {
+        "en": [
+          "sugar",
+          "caster sugar",
+          "white granulated sugar"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING023",
+      "names": {
+        "en": [
+          "lamb",
+          "minced lamb",
+          "lamb cubed",
+          "ground lamb",
+          "lean raw lamb",
+          "lamb leg",
+          "lamb shoulder meat"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING024",
+      "names": {
+        "en": [
+          "beef",
+          "ground beef",
+          "minced beef",
+          "lean minced beef"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING025",
+      "names": {
+        "en": [
+          "yogurt",
+          "yoghurt",
+          "strained yoghurt",
+          "plain yogurt",
+          "Greek yogurt"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING026",
+      "names": {
+        "en": [
+          "starch"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING027",
+      "names": {
+        "en": [
+          "mint",
+          "fresh mint"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING028",
+      "names": {
+        "en": [
+          "dried mint",
+          "dry mint"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING029",
+      "names": {
+        "en": [
+          "fava beans",
+          "broad beans",
+          "dry peeled fava beans"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING030",
+      "names": {
+        "en": [
+          "cilantro",
+          "fresh coriander",
+          "green coriander",
+          "coriander leaves"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING031",
+      "names": {
+        "en": [
+          "chili pepper",
+          "red chili pepper",
+          "red chilli pepper"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING032",
+      "names": {
+        "en": [
+          "spinach",
+          "fresh spinach",
+          "frozen spinach",
+          "frozen leaf spinach"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING033",
+      "names": {
+        "en": [
+          "basil",
+          "basil leaves"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING034",
+      "names": {
+        "en": [
+          "pita bread",
+          "pitta bread",
+          "pita",
+          "fried pita bread pieces",
+          "fried pita bread",
+          "toasted pita bread"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING035",
+      "names": {
+        "en": [
+          "lettuce",
+          "romaine lettuce"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING036",
+      "names": {
+        "en": [
+          "radish",
+          "radishes"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING037",
+      "names": {
+        "en": [
+          "vegetable oil",
+          "vegetable oils"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING038",
+      "names": {
+        "en": [
+          "chicory",
+          "chicory greens"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING039",
+      "names": {
+        "en": [
+          "pomegranate molasses",
+          "debs roman"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING040",
+      "names": {
+        "en": [
+          "potato",
+          "potatoes",
+          "small potato"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING041",
+      "names": {
+        "en": [
+          "butter"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING042",
+      "names": {
+        "en": [
+          "baking soda",
+          "bicarbonate of soda"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING043",
+      "names": {
+        "en": [
+          "sumac"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING044",
+      "names": {
+        "en": [
+          "spring onion",
+          "spring onions",
+          "green onions"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING045",
+      "names": {
+        "en": [
+          "vinegar",
+          "red vinegar"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING046",
+      "names": {
+        "en": [
+          "carrot",
+          "carrots",
+          "large carrot"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING047",
+      "names": {
+        "en": [
+          "cardamom",
+          "green cardamom",
+          "green cardamoms",
+          "whole green cardamoms"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING048",
+      "names": {
+        "en": [
+          "cinnamon",
+          "ground cinnamon",
+          "cinnamon powder",
+          "cinnamon stick",
+          "cinnamon sticks"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING049",
+      "names": {
+        "en": [
+          "cloves",
+          "clove"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING050",
+      "names": {
+        "en": [
+          "cumin",
+          "ground cumin",
+          "cumin powder"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING051",
+      "names": {
+        "en": [
+          "caraway",
+          "caraway seed",
+          "caraway seeds"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING052",
+      "names": {
+        "en": [
+          "allspice",
+          "all spice"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING053",
+      "names": {
+        "en": [
+          "nutmeg"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING054",
+      "names": {
+        "en": [
+          "green beans",
+          "frozen green beans"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING055",
+      "names": {
+        "en": [
+          "cabbage",
+          "cabbage leaves"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING056",
+      "names": {
+        "en": [
+          "tomato paste"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING057",
+      "names": {
+        "en": [
+          "chicken",
+          "chicken breast",
+          "breast chicken"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING058",
+      "names": {
+        "en": [
+          "sea bass"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING059",
+      "names": {
+        "en": [
+          "fish stock"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING060",
+      "names": {
+        "en": [
+          "okra"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING061",
+      "names": {
+        "en": [
+          "molokhia",
+          "mouloukhia"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING062",
+      "names": {
+        "en": [
+          "white beans",
+          "white haricot beans",
+          "haricot beans"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING063",
+      "names": {
+        "en": [
+          "pearl onion",
+          "pearl onions",
+          "small pearl onions"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING064",
+      "names": {
+        "en": [
+          "red pepper",
+          "red peppers",
+          "sweet pepper"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING065",
+      "names": {
+        "en": [
+          "shallot",
+          "shallots"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING066",
+      "names": {
+        "en": [
+          "red wine vinegar"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING067",
+      "names": {
+        "en": [
+          "flatbread",
+          "Lebanese flatbread",
+          "lavash",
+          "Lebanese flatbread or lavash",
+          "Lebanese flatbreads",
+          "Lebanese bread rounds"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING068",
+      "names": {
+        "en": [
+          "baking powder"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING069",
+      "names": {
+        "en": [
+          "ground coriander",
+          "coriander powder"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING070",
+      "names": {
+        "en": [
+          "ground red pepper"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING071",
+      "names": {
+        "en": [
+          "purslane"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING072",
+      "names": {
+        "en": [
+          "sunflower oil"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING073",
+      "names": {
+        "en": [
+          "sesame seeds",
+          "white sesame seeds"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING074",
+      "names": {
+        "en": [
+          "seven spices",
+          "Lebanese seven spices",
+          "Lebanese mixed spices",
+          "baharat"
+        ],
+        "ar": [
+          "بهارات سبعة",
+          "البهارات السبعة"
+        ],
+        "fr": [
+          "sept épices",
+          "mélange de sept épices"
+        ]
+      }
+    },
+    {
+      "id": "ING075",
+      "names": {
+        "en": [
+          "green bell pepper",
+          "green bell peppers",
+          "green pepper",
+          "green peppers"
+        ],
+        "ar": [
+          "فليفلة خضراء",
+          "فلفل أخضر"
+        ],
+        "fr": [
+          "poivron vert",
+          "poivrons verts"
+        ]
+      }
+    },
+    {
+      "id": "ING076",
+      "names": {
+        "en": [
+          "zucchini",
+          "courgette",
+          "courgettes"
+        ],
+        "ar": [
+          "كوسا"
+        ],
+        "fr": [
+          "courgette",
+          "courgettes"
+        ]
+      }
+    },
+    {
+      "id": "ING077",
+      "names": {
+        "en": [
+          "grape leaves",
+          "vine leaves"
+        ],
+        "ar": [
+          "ورق عنب",
+          "ورق العنب"
+        ],
+        "fr": [
+          "feuilles de vigne"
+        ]
+      }
+    },
+    {
+      "id": "ING078",
+      "names": {
+        "en": [
+          "tomato juice"
+        ],
+        "ar": [
+          "عصير الطماطم",
+          "عصير البندورة"
+        ],
+        "fr": [
+          "jus de tomate"
+        ]
+      }
+    },
+    {
+      "id": "ING079",
+      "names": {
+        "en": [
+          "chicken stock",
+          "chicken broth"
+        ],
+        "ar": [
+          "مرق الدجاج"
+        ],
+        "fr": [
+          "bouillon de poulet"
+        ]
+      }
+    },
+    {
+      "id": "ING080",
+      "names": {
+        "en": [
+          "moghrabieh",
+          "moghrabieh pearls",
+          "Lebanese moghrabieh",
+          "dry moghrabieh"
+        ],
+        "ar": [
+          "مغربية"
+        ],
+        "fr": [
+          "moghrabieh",
+          "perles de moghrabieh"
+        ]
+      }
+    },
+    {
+      "id": "ING081",
+      "names": {
+        "en": [
+          "cornstarch",
+          "corn flour"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING082",
+      "names": {
+        "en": [
+          "bitter orange juice"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING083",
+      "names": {
+        "en": [
+          "mandarin juice"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING084",
+      "names": {
+        "en": [
+          "orange juice"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING085",
+      "names": {
+        "en": [
+          "Akkawi cheese"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING086",
+      "names": {
+        "en": [
+          "Halloumi cheese"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING087",
+      "names": {
+        "en": [
+          "zaatar blend"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING088",
+      "names": {
+        "en": [
+          "Tawook spice mix"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING089",
+      "names": {
+        "en": [
+          "cooking oil",
+          "oil",
+          "oil for frying",
+          "neutral oil",
+          "neutral oil for deep-frying"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING090",
+      "names": {
+        "en": [
+          "cayenne pepper",
+          "ground cayenne pepper"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING091",
+      "names": {
+        "en": [
+          "ghee",
+          "clarified butter"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING092",
+      "names": {
+        "en": [
+          "freekeh"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING093",
+      "names": {
+        "en": [
+          "peas",
+          "green peas",
+          "frozen peas"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING094",
+      "names": {
+        "en": [
+          "tomato sauce"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING095",
+      "names": {
+        "en": [
+          "curry powder"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING096",
+      "names": {
+        "en": [
+          "chili flakes",
+          "chilli flakes"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING097",
+      "names": {
+        "en": [
+          "milk",
+          "full-cream milk",
+          "full cream milk"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING098",
+      "names": {
+        "en": [
+          "rose water"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING099",
+      "names": {
+        "en": [
+          "orange blossom water"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    },
+    {
+      "id": "ING100",
+      "names": {
+        "en": [
+          "pistachios",
+          "pistachio"
+        ],
+        "ar": [],
+        "fr": []
+      }
+    }
+  ]
+}

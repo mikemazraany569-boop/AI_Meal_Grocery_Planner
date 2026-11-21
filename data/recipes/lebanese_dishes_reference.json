@@ -1,0 +1,4493 @@
+{
+    "dataset_name": "Lebanese traditional dishes reference",
+    "source_document": "Food composition digital copy-EN 211129.pdf",
+    "source_pages": [
+        62,
+        63
+    ],
+    "record_count": 30,
+    "notes": [
+        "Ingredient wording is transcribed from Annex 3; line breaks have been joined.",
+        "No Arabic dish names, recipe quantities, servings, or preparation instructions are supplied in this annex.",
+        "ingredients_normalized is intentionally empty until mapped to the project's canonical multilingual ingredient IDs."
+    ],
+    "dishes": [
+        {
+            "id": "LB001",
+            "name_en": "Baba ghanouj",
+            "name_ar": null,
+            "ingredients_original": [
+                "Aubergines",
+                "garlic cloves",
+                "juice of lemon",
+                "tahini",
+                "pomegranate seeds",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Aubergines",
+                    "components": [
+                        {
+                            "original": "Aubergines",
+                            "id": "ING011",
+                            "canonical_name": "eggplant",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves",
+                    "components": [
+                        {
+                            "original": "garlic cloves",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "juice of lemon",
+                    "components": [
+                        {
+                            "original": "juice of lemon",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tahini",
+                    "components": [
+                        {
+                            "original": "tahini",
+                            "id": "ING012",
+                            "canonical_name": "tahini",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pomegranate seeds",
+                    "components": [
+                        {
+                            "original": "pomegranate seeds",
+                            "id": "ING013",
+                            "canonical_name": "pomegranate seeds",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB002",
+            "name_en": "Batata mahchi",
+            "name_ar": null,
+            "ingredients_original": [
+                "Lamb ground onions",
+                "butter",
+                "salt",
+                "pepper",
+                "pine nuts",
+                "potato",
+                "tomato juice"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Lamb ground onions",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Ingredient boundaries are unclear."
+                },
+                {
+                    "original": "butter",
+                    "components": [
+                        {
+                            "original": "butter",
+                            "id": "ING041",
+                            "canonical_name": "butter",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pepper",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Could mean black pepper or sweet pepper."
+                },
+                {
+                    "original": "pine nuts",
+                    "components": [
+                        {
+                            "original": "pine nuts",
+                            "id": "ING017",
+                            "canonical_name": "pine nuts",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "potato",
+                    "components": [
+                        {
+                            "original": "potato",
+                            "id": "ING040",
+                            "canonical_name": "potato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tomato juice",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Keep distinct from tomato and tomato paste."
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB003",
+            "name_en": "Borgul bi banadoura",
+            "name_ar": null,
+            "ingredients_original": [
+                "Coarse bulgur wheat",
+                "small pearl onions",
+                "chickpeas",
+                "cinnamon stick",
+                "caraway seed",
+                "vegetable oil",
+                "mild white pepper",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Coarse bulgur wheat",
+                    "components": [
+                        {
+                            "original": "Coarse bulgur wheat",
+                            "id": "ING018",
+                            "canonical_name": "bulgur",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "small pearl onions",
+                    "components": [
+                        {
+                            "original": "small pearl onions",
+                            "id": "ING063",
+                            "canonical_name": "pearl onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "chickpeas",
+                    "components": [
+                        {
+                            "original": "chickpeas",
+                            "id": "ING004",
+                            "canonical_name": "chickpeas",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cinnamon stick",
+                    "components": [
+                        {
+                            "original": "cinnamon stick",
+                            "id": "ING048",
+                            "canonical_name": "cinnamon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "caraway seed",
+                    "components": [
+                        {
+                            "original": "caraway seed",
+                            "id": "ING051",
+                            "canonical_name": "caraway",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "vegetable oil",
+                    "components": [
+                        {
+                            "original": "vegetable oil",
+                            "id": "ING037",
+                            "canonical_name": "vegetable oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "mild white pepper",
+                    "components": [
+                        {
+                            "original": "mild white pepper",
+                            "id": "ING016",
+                            "canonical_name": "white pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB004",
+            "name_en": "Chichbarak",
+            "name_ar": null,
+            "ingredients_original": [
+                "Chichbarak Dough: multi-purpose flour",
+                "salt",
+                "water warm to form a paste",
+                "yeast",
+                "sugar",
+                "Meat Stuffing: ground beef",
+                "salt to taste",
+                "black pepper to taste",
+                "cinnamon powder to taste",
+                "onion finely chopped",
+                "pine nuts",
+                "olive oil",
+                "bushel of parsley chopped",
+                "Chich Barak Stew: yogurt",
+                "water",
+                "starch",
+                "garlic cloves crushed (optional)",
+                "rice",
+                "dried mint",
+                "salt to taste"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Chichbarak Dough: multi-purpose flour",
+                    "components": [
+                        {
+                            "original": "Chichbarak Dough: multi-purpose flour",
+                            "id": "ING019",
+                            "canonical_name": "flour",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "water warm to form a paste",
+                    "components": [
+                        {
+                            "original": "water warm to form a paste",
+                            "id": "ING020",
+                            "canonical_name": "water",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "yeast",
+                    "components": [
+                        {
+                            "original": "yeast",
+                            "id": "ING021",
+                            "canonical_name": "yeast",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "sugar",
+                    "components": [
+                        {
+                            "original": "sugar",
+                            "id": "ING022",
+                            "canonical_name": "sugar",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Meat Stuffing: ground beef",
+                    "components": [
+                        {
+                            "original": "Meat Stuffing: ground beef",
+                            "id": "ING024",
+                            "canonical_name": "beef",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt to taste",
+                    "components": [
+                        {
+                            "original": "salt to taste",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "black pepper to taste",
+                    "components": [
+                        {
+                            "original": "black pepper to taste",
+                            "id": "ING015",
+                            "canonical_name": "black pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cinnamon powder to taste",
+                    "components": [
+                        {
+                            "original": "cinnamon powder to taste",
+                            "id": "ING048",
+                            "canonical_name": "cinnamon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onion finely chopped",
+                    "components": [
+                        {
+                            "original": "onion finely chopped",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pine nuts",
+                    "components": [
+                        {
+                            "original": "pine nuts",
+                            "id": "ING017",
+                            "canonical_name": "pine nuts",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "bushel of parsley chopped",
+                    "components": [
+                        {
+                            "original": "bushel of parsley chopped",
+                            "id": "ING003",
+                            "canonical_name": "parsley",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Chich Barak Stew: yogurt",
+                    "components": [
+                        {
+                            "original": "Chich Barak Stew: yogurt",
+                            "id": "ING025",
+                            "canonical_name": "yogurt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "water",
+                    "components": [
+                        {
+                            "original": "water",
+                            "id": "ING020",
+                            "canonical_name": "water",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "starch",
+                    "components": [
+                        {
+                            "original": "starch",
+                            "id": "ING026",
+                            "canonical_name": "starch",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves crushed (optional)",
+                    "components": [
+                        {
+                            "original": "garlic cloves crushed (optional)",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "rice",
+                    "components": [
+                        {
+                            "original": "rice",
+                            "id": "ING006",
+                            "canonical_name": "rice",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "dried mint",
+                    "components": [
+                        {
+                            "original": "dried mint",
+                            "id": "ING028",
+                            "canonical_name": "dried mint",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt to taste",
+                    "components": [
+                        {
+                            "original": "salt to taste",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB005",
+            "name_en": "Falafel",
+            "name_ar": null,
+            "ingredients_original": [
+                "Dry peeled fava beans",
+                "dried chickpeas (Garbanzo beans)",
+                "Italian parsley (chop away the stems)",
+                "green cilantro (chop away the stems)",
+                "freshly peeled crushed garlic cloves",
+                "red or yellow onion",
+                "green onions",
+                "salt",
+                "black pepper",
+                "flour",
+                "baking soda",
+                "red chili pepper (optional, if spicy falafel is desired)",
+                "cumin",
+                "Coriander",
+                "Falafel Tahini Sauce Ingredients: Tahini Paste",
+                "freshly squeezed lemon juice",
+                "garlic cloves, crushed",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Dry peeled fava beans",
+                    "components": [
+                        {
+                            "original": "Dry peeled fava beans",
+                            "id": "ING029",
+                            "canonical_name": "fava beans",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "dried chickpeas (Garbanzo beans)",
+                    "components": [
+                        {
+                            "original": "dried chickpeas (Garbanzo beans)",
+                            "id": "ING004",
+                            "canonical_name": "chickpeas",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Italian parsley (chop away the stems)",
+                    "components": [
+                        {
+                            "original": "Italian parsley (chop away the stems)",
+                            "id": "ING003",
+                            "canonical_name": "parsley",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "green cilantro (chop away the stems)",
+                    "components": [
+                        {
+                            "original": "green cilantro (chop away the stems)",
+                            "id": "ING030",
+                            "canonical_name": "cilantro",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "freshly peeled crushed garlic cloves",
+                    "components": [
+                        {
+                            "original": "freshly peeled crushed garlic cloves",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "red or yellow onion",
+                    "components": [
+                        {
+                            "original": "red or yellow onion",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "green onions",
+                    "components": [
+                        {
+                            "original": "green onions",
+                            "id": "ING044",
+                            "canonical_name": "spring onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "black pepper",
+                    "components": [
+                        {
+                            "original": "black pepper",
+                            "id": "ING015",
+                            "canonical_name": "black pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "flour",
+                    "components": [
+                        {
+                            "original": "flour",
+                            "id": "ING019",
+                            "canonical_name": "flour",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "baking soda",
+                    "components": [
+                        {
+                            "original": "baking soda",
+                            "id": "ING042",
+                            "canonical_name": "baking soda",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "red chili pepper (optional, if spicy falafel is desired)",
+                    "components": [
+                        {
+                            "original": "red chili pepper (optional, if spicy falafel is desired)",
+                            "id": "ING031",
+                            "canonical_name": "chili pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cumin",
+                    "components": [
+                        {
+                            "original": "cumin",
+                            "id": "ING050",
+                            "canonical_name": "cumin",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Coriander",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Could mean coriander seeds or fresh coriander leaves."
+                },
+                {
+                    "original": "Falafel Tahini Sauce Ingredients: Tahini Paste",
+                    "components": [
+                        {
+                            "original": "Falafel Tahini Sauce Ingredients: Tahini Paste",
+                            "id": "ING012",
+                            "canonical_name": "tahini",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "freshly squeezed lemon juice",
+                    "components": [
+                        {
+                            "original": "freshly squeezed lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves, crushed",
+                    "components": [
+                        {
+                            "original": "garlic cloves, crushed",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB006",
+            "name_en": "Fatayer sabanikh",
+            "name_ar": null,
+            "ingredients_original": [
+                "Fresh spinach",
+                "onions",
+                "pine nuts",
+                "lemon juice",
+                "olive oil",
+                "sumac",
+                "salt",
+                "plain white flour",
+                "caster sugar",
+                "baker yeast",
+                "olive oil",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Fresh spinach",
+                    "components": [
+                        {
+                            "original": "Fresh spinach",
+                            "id": "ING032",
+                            "canonical_name": "spinach",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pine nuts",
+                    "components": [
+                        {
+                            "original": "pine nuts",
+                            "id": "ING017",
+                            "canonical_name": "pine nuts",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "sumac",
+                    "components": [
+                        {
+                            "original": "sumac",
+                            "id": "ING043",
+                            "canonical_name": "sumac",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "plain white flour",
+                    "components": [
+                        {
+                            "original": "plain white flour",
+                            "id": "ING019",
+                            "canonical_name": "flour",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "caster sugar",
+                    "components": [
+                        {
+                            "original": "caster sugar",
+                            "id": "ING022",
+                            "canonical_name": "sugar",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "baker yeast",
+                    "components": [
+                        {
+                            "original": "baker yeast",
+                            "id": "ING021",
+                            "canonical_name": "yeast",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB007",
+            "name_en": "Fattat Hommos",
+            "name_ar": null,
+            "ingredients_original": [
+                "Chickpeas",
+                "tomatoes",
+                "onion",
+                "basil leaves",
+                "garlic cloves",
+                "pitta bread",
+                "pine nuts",
+                "yogurt",
+                "tahini and vinegar",
+                "vegetable oil",
+                "salt and pepper"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Chickpeas",
+                    "components": [
+                        {
+                            "original": "Chickpeas",
+                            "id": "ING004",
+                            "canonical_name": "chickpeas",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tomatoes",
+                    "components": [
+                        {
+                            "original": "tomatoes",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onion",
+                    "components": [
+                        {
+                            "original": "onion",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "basil leaves",
+                    "components": [
+                        {
+                            "original": "basil leaves",
+                            "id": "ING033",
+                            "canonical_name": "basil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves",
+                    "components": [
+                        {
+                            "original": "garlic cloves",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pitta bread",
+                    "components": [
+                        {
+                            "original": "pitta bread",
+                            "id": "ING034",
+                            "canonical_name": "pita bread",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pine nuts",
+                    "components": [
+                        {
+                            "original": "pine nuts",
+                            "id": "ING017",
+                            "canonical_name": "pine nuts",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "yogurt",
+                    "components": [
+                        {
+                            "original": "yogurt",
+                            "id": "ING025",
+                            "canonical_name": "yogurt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tahini and vinegar",
+                    "components": [
+                        {
+                            "original": "tahini",
+                            "id": "ING012",
+                            "canonical_name": "tahini",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "vinegar",
+                            "id": "ING045",
+                            "canonical_name": "vinegar",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "vegetable oil",
+                    "components": [
+                        {
+                            "original": "vegetable oil",
+                            "id": "ING037",
+                            "canonical_name": "vegetable oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt and pepper",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "pepper",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "needs_review"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB008",
+            "name_en": "Fattoush",
+            "name_ar": null,
+            "ingredients_original": [
+                "Lettuces or romaine lettuce",
+                "cherry tomatoes",
+                "cucumbers",
+                "radishes",
+                "spring onions",
+                "flat-leaf parsley",
+                "mint",
+                "pitta bread",
+                "olive oil",
+                "vinegar",
+                "sumac",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Lettuces or romaine lettuce",
+                    "components": [
+                        {
+                            "original": "Lettuces or romaine lettuce",
+                            "id": "ING035",
+                            "canonical_name": "lettuce",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cherry tomatoes",
+                    "components": [
+                        {
+                            "original": "cherry tomatoes",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cucumbers",
+                    "components": [
+                        {
+                            "original": "cucumbers",
+                            "id": "ING010",
+                            "canonical_name": "cucumber",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "radishes",
+                    "components": [
+                        {
+                            "original": "radishes",
+                            "id": "ING036",
+                            "canonical_name": "radish",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "spring onions",
+                    "components": [
+                        {
+                            "original": "spring onions",
+                            "id": "ING044",
+                            "canonical_name": "spring onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "flat-leaf parsley",
+                    "components": [
+                        {
+                            "original": "flat-leaf parsley",
+                            "id": "ING003",
+                            "canonical_name": "parsley",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "mint",
+                    "components": [
+                        {
+                            "original": "mint",
+                            "id": "ING027",
+                            "canonical_name": "mint",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pitta bread",
+                    "components": [
+                        {
+                            "original": "pitta bread",
+                            "id": "ING034",
+                            "canonical_name": "pita bread",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "vinegar",
+                    "components": [
+                        {
+                            "original": "vinegar",
+                            "id": "ING045",
+                            "canonical_name": "vinegar",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "sumac",
+                    "components": [
+                        {
+                            "original": "sumac",
+                            "id": "ING043",
+                            "canonical_name": "sumac",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB009",
+            "name_en": "Foul moudamas",
+            "name_ar": null,
+            "ingredients_original": [
+                "Broad beans",
+                "baking soda",
+                "water",
+                "water",
+                "salt",
+                "garlic cloves minced",
+                "lemon juice",
+                "olive oil"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Broad beans",
+                    "components": [
+                        {
+                            "original": "Broad beans",
+                            "id": "ING029",
+                            "canonical_name": "fava beans",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "baking soda",
+                    "components": [
+                        {
+                            "original": "baking soda",
+                            "id": "ING042",
+                            "canonical_name": "baking soda",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "water",
+                    "components": [
+                        {
+                            "original": "water",
+                            "id": "ING020",
+                            "canonical_name": "water",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "water",
+                    "components": [
+                        {
+                            "original": "water",
+                            "id": "ING020",
+                            "canonical_name": "water",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves minced",
+                    "components": [
+                        {
+                            "original": "garlic cloves minced",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB010",
+            "name_en": "Hindbe bil zet",
+            "name_ar": null,
+            "ingredients_original": [
+                "Chicory greens",
+                "water",
+                "olive oil",
+                "onions",
+                "salt",
+                "lemon juice"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Chicory greens",
+                    "components": [
+                        {
+                            "original": "Chicory greens",
+                            "id": "ING038",
+                            "canonical_name": "chicory",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "water",
+                    "components": [
+                        {
+                            "original": "water",
+                            "id": "ING020",
+                            "canonical_name": "water",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB011",
+            "name_en": "Hommos bi tahini",
+            "name_ar": null,
+            "ingredients_original": [
+                "Chickpeas",
+                "garlic cloves",
+                "lemon juice",
+                "tahini",
+                "olive oil",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Chickpeas",
+                    "components": [
+                        {
+                            "original": "Chickpeas",
+                            "id": "ING004",
+                            "canonical_name": "chickpeas",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves",
+                    "components": [
+                        {
+                            "original": "garlic cloves",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tahini",
+                    "components": [
+                        {
+                            "original": "tahini",
+                            "id": "ING012",
+                            "canonical_name": "tahini",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB012",
+            "name_en": "Kafta wa batata",
+            "name_ar": null,
+            "ingredients_original": [
+                "Minced lamb",
+                "flat-leaf parsley",
+                "onions",
+                "salt and pepper",
+                "onions",
+                "red pepper",
+                "tomato juice",
+                "debs roman",
+                "olive oil",
+                "salt and pepper",
+                "potatoes",
+                "ripe tomatoes",
+                "vegetable oil"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Minced lamb",
+                    "components": [
+                        {
+                            "original": "Minced lamb",
+                            "id": "ING023",
+                            "canonical_name": "lamb",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "flat-leaf parsley",
+                    "components": [
+                        {
+                            "original": "flat-leaf parsley",
+                            "id": "ING003",
+                            "canonical_name": "parsley",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt and pepper",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "pepper",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "needs_review"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "red pepper",
+                    "components": [
+                        {
+                            "original": "red pepper",
+                            "id": "ING064",
+                            "canonical_name": "red pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tomato juice",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Keep distinct from tomato and tomato paste."
+                },
+                {
+                    "original": "debs roman",
+                    "components": [
+                        {
+                            "original": "debs roman",
+                            "id": "ING039",
+                            "canonical_name": "pomegranate molasses",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt and pepper",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "pepper",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "needs_review"
+                },
+                {
+                    "original": "potatoes",
+                    "components": [
+                        {
+                            "original": "potatoes",
+                            "id": "ING040",
+                            "canonical_name": "potato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "ripe tomatoes",
+                    "components": [
+                        {
+                            "original": "ripe tomatoes",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "vegetable oil",
+                    "components": [
+                        {
+                            "original": "vegetable oil",
+                            "id": "ING037",
+                            "canonical_name": "vegetable oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB013",
+            "name_en": "Kebba bil sayniya",
+            "name_ar": null,
+            "ingredients_original": [
+                "FInely ground beef (or lamb, lean, divided)",
+                "bulgur cracked wheat",
+                "salt",
+                "all spice",
+                "cumin",
+                "onions (finely chopped)"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "FInely ground beef (or lamb, lean, divided)",
+                    "components": [],
+                    "alternatives": [
+                        {
+                            "original": "finely ground beef",
+                            "id": "ING024",
+                            "canonical_name": "beef",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "lamb",
+                            "id": "ING023",
+                            "canonical_name": "lamb",
+                            "status": "matched"
+                        }
+                    ],
+                    "status": "alternatives"
+                },
+                {
+                    "original": "bulgur cracked wheat",
+                    "components": [
+                        {
+                            "original": "bulgur cracked wheat",
+                            "id": "ING018",
+                            "canonical_name": "bulgur",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "all spice",
+                    "components": [
+                        {
+                            "original": "all spice",
+                            "id": "ING052",
+                            "canonical_name": "allspice",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cumin",
+                    "components": [
+                        {
+                            "original": "cumin",
+                            "id": "ING050",
+                            "canonical_name": "cumin",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions (finely chopped)",
+                    "components": [
+                        {
+                            "original": "onions (finely chopped)",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB014",
+            "name_en": "Koussa mahchi",
+            "name_ar": null,
+            "ingredients_original": [
+                "Minced lamb",
+                "small courgettes",
+                "short grain rice",
+                "olive oil",
+                "salt and black pepper"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Minced lamb",
+                    "components": [
+                        {
+                            "original": "Minced lamb",
+                            "id": "ING023",
+                            "canonical_name": "lamb",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "small courgettes",
+                    "components": [
+                        {
+                            "original": "zucchini",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "No reliable canonical ingredient match found."
+                },
+                {
+                    "original": "short grain rice",
+                    "components": [
+                        {
+                            "original": "short grain rice",
+                            "id": "ING006",
+                            "canonical_name": "rice",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt and black pepper",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "black pepper",
+                            "id": "ING015",
+                            "canonical_name": "black pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB015",
+            "name_en": "Lahm bil ajin",
+            "name_ar": null,
+            "ingredients_original": [
+                "Plain white flour",
+                "caster sugar",
+                "baker’s yeast",
+                "salt",
+                "olive oil",
+                "minced lamb",
+                "tomatoes",
+                "few drops of pomegranate molasses",
+                "salt and pepper"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Plain white flour",
+                    "components": [
+                        {
+                            "original": "Plain white flour",
+                            "id": "ING019",
+                            "canonical_name": "flour",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "caster sugar",
+                    "components": [
+                        {
+                            "original": "caster sugar",
+                            "id": "ING022",
+                            "canonical_name": "sugar",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "baker’s yeast",
+                    "components": [
+                        {
+                            "original": "baker’s yeast",
+                            "id": "ING021",
+                            "canonical_name": "yeast",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "minced lamb",
+                    "components": [
+                        {
+                            "original": "minced lamb",
+                            "id": "ING023",
+                            "canonical_name": "lamb",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tomatoes",
+                    "components": [
+                        {
+                            "original": "tomatoes",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "few drops of pomegranate molasses",
+                    "components": [
+                        {
+                            "original": "few drops of pomegranate molasses",
+                            "id": "ING039",
+                            "canonical_name": "pomegranate molasses",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt and pepper",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "pepper",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "needs_review"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB016",
+            "name_en": "Loubia bil zet",
+            "name_ar": null,
+            "ingredients_original": [
+                "Vegetable oil",
+                "white onions, sliced",
+                "Frozen bag green beans",
+                "garlic cloves, peeled",
+                "Cans of chopped tomatoes",
+                "Salt and sweet pepper, to taste",
+                "7 spices",
+                "Extra-virgin olive oil"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Vegetable oil",
+                    "components": [
+                        {
+                            "original": "Vegetable oil",
+                            "id": "ING037",
+                            "canonical_name": "vegetable oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "white onions, sliced",
+                    "components": [
+                        {
+                            "original": "white onions, sliced",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Frozen bag green beans",
+                    "components": [
+                        {
+                            "original": "Frozen bag green beans",
+                            "id": "ING054",
+                            "canonical_name": "green beans",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves, peeled",
+                    "components": [
+                        {
+                            "original": "garlic cloves, peeled",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Cans of chopped tomatoes",
+                    "components": [
+                        {
+                            "original": "Cans of chopped tomatoes",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Salt and sweet pepper, to taste",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "sweet pepper",
+                            "id": "ING064",
+                            "canonical_name": "red pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "7 spices",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Lebanese spice mixture; composition may vary."
+                },
+                {
+                    "original": "Extra-virgin olive oil",
+                    "components": [
+                        {
+                            "original": "Extra-virgin olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB017",
+            "name_en": "Malfouf mahchi",
+            "name_ar": null,
+            "ingredients_original": [
+                "Cabbage leaves",
+                "basic vegetables stuffing",
+                "tomato",
+                "lemon juice",
+                "water",
+                "cinnamon",
+                "garlic cloves",
+                "dry mint"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Cabbage leaves",
+                    "components": [
+                        {
+                            "original": "Cabbage leaves",
+                            "id": "ING055",
+                            "canonical_name": "cabbage",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "basic vegetables stuffing",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Composite ingredient; components are unknown."
+                },
+                {
+                    "original": "tomato",
+                    "components": [
+                        {
+                            "original": "tomato",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "water",
+                    "components": [
+                        {
+                            "original": "water",
+                            "id": "ING020",
+                            "canonical_name": "water",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cinnamon",
+                    "components": [
+                        {
+                            "original": "cinnamon",
+                            "id": "ING048",
+                            "canonical_name": "cinnamon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves",
+                    "components": [
+                        {
+                            "original": "garlic cloves",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "dry mint",
+                    "components": [
+                        {
+                            "original": "dry mint",
+                            "id": "ING028",
+                            "canonical_name": "dried mint",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB018",
+            "name_en": "Moujadara",
+            "name_ar": null,
+            "ingredients_original": [
+                "Green or coral lentils",
+                "short-grain rice",
+                "onions",
+                "olive oil",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Green or coral lentils",
+                    "components": [
+                        {
+                            "original": "Green or coral lentils",
+                            "id": "ING005",
+                            "canonical_name": "lentils",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "short-grain rice",
+                    "components": [
+                        {
+                            "original": "short-grain rice",
+                            "id": "ING006",
+                            "canonical_name": "rice",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 62,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB019",
+            "name_en": "Moghrabia",
+            "name_ar": null,
+            "ingredients_original": [
+                "Dry dough",
+                "Chick Peas",
+                "Pearl Onions",
+                "Vegetable Oil",
+                "Butter",
+                "Caraway",
+                "Ground Cinnamon",
+                "Ground Cumin",
+                "salt",
+                "black pepper"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Dry dough",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "The ingredient is not sufficiently specified."
+                },
+                {
+                    "original": "Chick Peas",
+                    "components": [
+                        {
+                            "original": "Chick Peas",
+                            "id": "ING004",
+                            "canonical_name": "chickpeas",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Pearl Onions",
+                    "components": [
+                        {
+                            "original": "Pearl Onions",
+                            "id": "ING063",
+                            "canonical_name": "pearl onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Vegetable Oil",
+                    "components": [
+                        {
+                            "original": "Vegetable Oil",
+                            "id": "ING037",
+                            "canonical_name": "vegetable oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Butter",
+                    "components": [
+                        {
+                            "original": "Butter",
+                            "id": "ING041",
+                            "canonical_name": "butter",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Caraway",
+                    "components": [
+                        {
+                            "original": "Caraway",
+                            "id": "ING051",
+                            "canonical_name": "caraway",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Ground Cinnamon",
+                    "components": [
+                        {
+                            "original": "Ground Cinnamon",
+                            "id": "ING048",
+                            "canonical_name": "cinnamon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Ground Cumin",
+                    "components": [
+                        {
+                            "original": "Ground Cumin",
+                            "id": "ING050",
+                            "canonical_name": "cumin",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "black pepper",
+                    "components": [
+                        {
+                            "original": "black pepper",
+                            "id": "ING015",
+                            "canonical_name": "black pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB020",
+            "name_en": "Mousaka batinjan",
+            "name_ar": null,
+            "ingredients_original": [
+                "Eggplant, sliced into (you can leave skin on or peel)",
+                "yellow or white onion, diced",
+                "garlic cloves, minced",
+                "low-salt chickpeas",
+                "extra virgin olive oil",
+                "low-salt diced tomatoes",
+                "tomato paste",
+                "Piquant Post Spicy Mint blend",
+                "Pita chips or crusty bread for dipping",
+                "salt and pepper to taste"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Eggplant, sliced into (you can leave skin on or peel)",
+                    "components": [
+                        {
+                            "original": "Eggplant, sliced into (you can leave skin on or peel)",
+                            "id": "ING011",
+                            "canonical_name": "eggplant",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "yellow or white onion, diced",
+                    "components": [
+                        {
+                            "original": "yellow or white onion, diced",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves, minced",
+                    "components": [
+                        {
+                            "original": "garlic cloves, minced",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "low-salt chickpeas",
+                    "components": [
+                        {
+                            "original": "low-salt chickpeas",
+                            "id": "ING004",
+                            "canonical_name": "chickpeas",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "extra virgin olive oil",
+                    "components": [
+                        {
+                            "original": "extra virgin olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "low-salt diced tomatoes",
+                    "components": [
+                        {
+                            "original": "low-salt diced tomatoes",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tomato paste",
+                    "components": [
+                        {
+                            "original": "tomato paste",
+                            "id": "ING056",
+                            "canonical_name": "tomato paste",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "Piquant Post Spicy Mint blend",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Branded spice blend."
+                },
+                {
+                    "original": "Pita chips or crusty bread for dipping",
+                    "components": [],
+                    "alternatives": [
+                        {
+                            "original": "pita chips",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        },
+                        {
+                            "original": "crusty bread",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "status": "needs_review"
+                },
+                {
+                    "original": "salt and pepper to taste",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "pepper",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "needs_review"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB021",
+            "name_en": "Riz a dajaj",
+            "name_ar": null,
+            "ingredients_original": [
+                "Breast chicken",
+                "basmati rice",
+                "carrot",
+                "onions",
+                "tomato juice",
+                "whole black peppercorns",
+                "whole green cardamoms",
+                "cinnamon",
+                "cloves",
+                "cumin",
+                "vegetable oils",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Breast chicken",
+                    "components": [
+                        {
+                            "original": "Breast chicken",
+                            "id": "ING057",
+                            "canonical_name": "chicken",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "basmati rice",
+                    "components": [
+                        {
+                            "original": "basmati rice",
+                            "id": "ING006",
+                            "canonical_name": "rice",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "carrot",
+                    "components": [
+                        {
+                            "original": "carrot",
+                            "id": "ING046",
+                            "canonical_name": "carrot",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tomato juice",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Keep distinct from tomato and tomato paste."
+                },
+                {
+                    "original": "whole black peppercorns",
+                    "components": [
+                        {
+                            "original": "whole black peppercorns",
+                            "id": "ING015",
+                            "canonical_name": "black pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "whole green cardamoms",
+                    "components": [
+                        {
+                            "original": "whole green cardamoms",
+                            "id": "ING047",
+                            "canonical_name": "cardamom",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cinnamon",
+                    "components": [
+                        {
+                            "original": "cinnamon",
+                            "id": "ING048",
+                            "canonical_name": "cinnamon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cloves",
+                    "components": [
+                        {
+                            "original": "cloves",
+                            "id": "ING049",
+                            "canonical_name": "cloves",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cumin",
+                    "components": [
+                        {
+                            "original": "cumin",
+                            "id": "ING050",
+                            "canonical_name": "cumin",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "vegetable oils",
+                    "components": [
+                        {
+                            "original": "vegetable oils",
+                            "id": "ING037",
+                            "canonical_name": "vegetable oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB022",
+            "name_en": "Riz bi lahma",
+            "name_ar": null,
+            "ingredients_original": [
+                "Medium fat meat",
+                "basmati rice",
+                "carrot",
+                "onions",
+                "tomato juice",
+                "whole black peppercorns",
+                "whole green cardamoms",
+                "cinnamon",
+                "cloves",
+                "cumin",
+                "vegetable oils",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Medium fat meat",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Meat type and fat percentage are unclear."
+                },
+                {
+                    "original": "basmati rice",
+                    "components": [
+                        {
+                            "original": "basmati rice",
+                            "id": "ING006",
+                            "canonical_name": "rice",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "carrot",
+                    "components": [
+                        {
+                            "original": "carrot",
+                            "id": "ING046",
+                            "canonical_name": "carrot",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tomato juice",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Keep distinct from tomato and tomato paste."
+                },
+                {
+                    "original": "whole black peppercorns",
+                    "components": [
+                        {
+                            "original": "whole black peppercorns",
+                            "id": "ING015",
+                            "canonical_name": "black pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "whole green cardamoms",
+                    "components": [
+                        {
+                            "original": "whole green cardamoms",
+                            "id": "ING047",
+                            "canonical_name": "cardamom",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cinnamon",
+                    "components": [
+                        {
+                            "original": "cinnamon",
+                            "id": "ING048",
+                            "canonical_name": "cinnamon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cloves",
+                    "components": [
+                        {
+                            "original": "cloves",
+                            "id": "ING049",
+                            "canonical_name": "cloves",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "cumin",
+                    "components": [
+                        {
+                            "original": "cumin",
+                            "id": "ING050",
+                            "canonical_name": "cumin",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "vegetable oils",
+                    "components": [
+                        {
+                            "original": "vegetable oils",
+                            "id": "ING037",
+                            "canonical_name": "vegetable oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB023",
+            "name_en": "Sayadia",
+            "name_ar": null,
+            "ingredients_original": [
+                "Sea bass, scaled and gutted or in fillets",
+                "basmati rice",
+                "onions",
+                "caraway seeds",
+                "ground cumin",
+                "pines nuts",
+                "olive oil",
+                "fish stock",
+                "vegetable oil",
+                "salt",
+                "flour",
+                "butter",
+                "lemon juice"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Sea bass, scaled and gutted or in fillets",
+                    "components": [
+                        {
+                            "original": "Sea bass, scaled and gutted or in fillets",
+                            "id": "ING058",
+                            "canonical_name": "sea bass",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "basmati rice",
+                    "components": [
+                        {
+                            "original": "basmati rice",
+                            "id": "ING006",
+                            "canonical_name": "rice",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "caraway seeds",
+                    "components": [
+                        {
+                            "original": "caraway seeds",
+                            "id": "ING051",
+                            "canonical_name": "caraway",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "ground cumin",
+                    "components": [
+                        {
+                            "original": "ground cumin",
+                            "id": "ING050",
+                            "canonical_name": "cumin",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pines nuts",
+                    "components": [
+                        {
+                            "original": "pines nuts",
+                            "id": "ING017",
+                            "canonical_name": "pine nuts",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "fish stock",
+                    "components": [
+                        {
+                            "original": "fish stock",
+                            "id": "ING059",
+                            "canonical_name": "fish stock",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "vegetable oil",
+                    "components": [
+                        {
+                            "original": "vegetable oil",
+                            "id": "ING037",
+                            "canonical_name": "vegetable oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "flour",
+                    "components": [
+                        {
+                            "original": "flour",
+                            "id": "ING019",
+                            "canonical_name": "flour",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "butter",
+                    "components": [
+                        {
+                            "original": "butter",
+                            "id": "ING041",
+                            "canonical_name": "butter",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB024",
+            "name_en": "Shawarma dajaj",
+            "name_ar": null,
+            "ingredients_original": [
+                "Chicken",
+                "olive oil",
+                "onions",
+                "red vinegar",
+                "lemon juice",
+                "pepper",
+                "cinnamon",
+                "nutmeg",
+                "salt",
+                "6 cloves of garlic"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Chicken",
+                    "components": [
+                        {
+                            "original": "Chicken",
+                            "id": "ING057",
+                            "canonical_name": "chicken",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "red vinegar",
+                    "components": [
+                        {
+                            "original": "red vinegar",
+                            "id": "ING045",
+                            "canonical_name": "vinegar",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pepper",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Could mean black pepper or sweet pepper."
+                },
+                {
+                    "original": "cinnamon",
+                    "components": [
+                        {
+                            "original": "cinnamon",
+                            "id": "ING048",
+                            "canonical_name": "cinnamon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "nutmeg",
+                    "components": [
+                        {
+                            "original": "nutmeg",
+                            "id": "ING053",
+                            "canonical_name": "nutmeg",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "6 cloves of garlic",
+                    "components": [
+                        {
+                            "original": "6 cloves of garlic",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB025",
+            "name_en": "Shawarma lahma",
+            "name_ar": null,
+            "ingredients_original": [
+                "Meat",
+                "olive oil",
+                "onions",
+                "red vinegar",
+                "lemon juice",
+                "pepper",
+                "cinnamon",
+                "nutmeg",
+                "salt",
+                "6 cloves of garlic"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Meat",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Meat type is not specified."
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "red vinegar",
+                    "components": [
+                        {
+                            "original": "red vinegar",
+                            "id": "ING045",
+                            "canonical_name": "vinegar",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pepper",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Could mean black pepper or sweet pepper."
+                },
+                {
+                    "original": "cinnamon",
+                    "components": [
+                        {
+                            "original": "cinnamon",
+                            "id": "ING048",
+                            "canonical_name": "cinnamon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "nutmeg",
+                    "components": [
+                        {
+                            "original": "nutmeg",
+                            "id": "ING053",
+                            "canonical_name": "nutmeg",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "6 cloves of garlic",
+                    "components": [
+                        {
+                            "original": "6 cloves of garlic",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB026",
+            "name_en": "Tabboula",
+            "name_ar": null,
+            "ingredients_original": [
+                "Tomatoes",
+                "spring onions",
+                "flat leaf parsley",
+                "mint",
+                "bulgur",
+                "wheat",
+                "lemon juice",
+                "olive oil",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Tomatoes",
+                    "components": [
+                        {
+                            "original": "Tomatoes",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "spring onions",
+                    "components": [
+                        {
+                            "original": "spring onions",
+                            "id": "ING044",
+                            "canonical_name": "spring onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "flat leaf parsley",
+                    "components": [
+                        {
+                            "original": "flat leaf parsley",
+                            "id": "ING003",
+                            "canonical_name": "parsley",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "mint",
+                    "components": [
+                        {
+                            "original": "mint",
+                            "id": "ING027",
+                            "canonical_name": "mint",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "bulgur",
+                    "components": [
+                        {
+                            "original": "bulgur",
+                            "id": "ING018",
+                            "canonical_name": "bulgur",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "wheat",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Needs a more specific ingredient form."
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB027",
+            "name_en": "Warak enab",
+            "name_ar": null,
+            "ingredients_original": [
+                "Vine leaves",
+                "tomatoes",
+                "onion",
+                "flat-leaf parsley",
+                "mint",
+                "lemon juice",
+                "short-grain rice",
+                "meat",
+                "olive oil",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Vine leaves",
+                    "components": [
+                        {
+                            "original": "grape leaves",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "No reliable canonical ingredient match found."
+                },
+                {
+                    "original": "tomatoes",
+                    "components": [
+                        {
+                            "original": "tomatoes",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onion",
+                    "components": [
+                        {
+                            "original": "onion",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "flat-leaf parsley",
+                    "components": [
+                        {
+                            "original": "flat-leaf parsley",
+                            "id": "ING003",
+                            "canonical_name": "parsley",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "mint",
+                    "components": [
+                        {
+                            "original": "mint",
+                            "id": "ING027",
+                            "canonical_name": "mint",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "short-grain rice",
+                    "components": [
+                        {
+                            "original": "short-grain rice",
+                            "id": "ING006",
+                            "canonical_name": "rice",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "meat",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Meat type is not specified."
+                },
+                {
+                    "original": "olive oil",
+                    "components": [
+                        {
+                            "original": "olive oil",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB028",
+            "name_en": "Yakhnat Bamia",
+            "name_ar": null,
+            "ingredients_original": [
+                "Lamb cubed",
+                "onions",
+                "garlic cloves minced",
+                "green coriander",
+                "okra",
+                "lemon juice",
+                "salt",
+                "pepper",
+                "water",
+                "tomatoes"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Lamb cubed",
+                    "components": [
+                        {
+                            "original": "Lamb cubed",
+                            "id": "ING023",
+                            "canonical_name": "lamb",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves minced",
+                    "components": [
+                        {
+                            "original": "garlic cloves minced",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "green coriander",
+                    "components": [
+                        {
+                            "original": "green coriander",
+                            "id": "ING030",
+                            "canonical_name": "cilantro",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "okra",
+                    "components": [
+                        {
+                            "original": "okra",
+                            "id": "ING060",
+                            "canonical_name": "okra",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "lemon juice",
+                    "components": [
+                        {
+                            "original": "lemon juice",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pepper",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Could mean black pepper or sweet pepper."
+                },
+                {
+                    "original": "water",
+                    "components": [
+                        {
+                            "original": "water",
+                            "id": "ING020",
+                            "canonical_name": "water",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tomatoes",
+                    "components": [
+                        {
+                            "original": "tomatoes",
+                            "id": "ING001",
+                            "canonical_name": "tomato",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB029",
+            "name_en": "Yakhnat Fassoulia",
+            "name_ar": null,
+            "ingredients_original": [
+                "Shoulder of lamb",
+                "fresh white haricot beans",
+                "coriander",
+                "onions",
+                "garlic cloves",
+                "tomato juice",
+                "olive oils",
+                "500 ml water or chicken stock",
+                "salt",
+                "black pepper"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Shoulder of lamb",
+                    "components": [
+                        {
+                            "original": "Shoulder of lamb",
+                            "id": "ING023",
+                            "canonical_name": "lamb",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "fresh white haricot beans",
+                    "components": [
+                        {
+                            "original": "fresh white haricot beans",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "No reliable canonical ingredient match found."
+                },
+                {
+                    "original": "coriander",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Could mean coriander seeds or fresh coriander leaves."
+                },
+                {
+                    "original": "onions",
+                    "components": [
+                        {
+                            "original": "onions",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "garlic cloves",
+                    "components": [
+                        {
+                            "original": "garlic cloves",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "tomato juice",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Keep distinct from tomato and tomato paste."
+                },
+                {
+                    "original": "olive oils",
+                    "components": [
+                        {
+                            "original": "olive oils",
+                            "id": "ING007",
+                            "canonical_name": "olive oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "500 ml water or chicken stock",
+                    "components": [],
+                    "alternatives": [
+                        {
+                            "original": "water",
+                            "id": "ING020",
+                            "canonical_name": "water",
+                            "status": "matched"
+                        },
+                        {
+                            "original": "chicken stock",
+                            "id": null,
+                            "canonical_name": null,
+                            "status": "needs_review"
+                        }
+                    ],
+                    "status": "needs_review"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "black pepper",
+                    "components": [
+                        {
+                            "original": "black pepper",
+                            "id": "ING015",
+                            "canonical_name": "black pepper",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        },
+        {
+            "id": "LB030",
+            "name_en": "Yakhnat Mouloukhia",
+            "name_ar": null,
+            "ingredients_original": [
+                "Mouloukhia",
+                "free-range chicken",
+                "basmati rice",
+                "coriander",
+                "garlic cloves",
+                "onion",
+                "shallots",
+                "pitta bread",
+                "vinegar",
+                "juice of lemons",
+                "vegetable oil",
+                "salt"
+            ],
+            "ingredients_normalized": [
+                {
+                    "original": "Mouloukhia",
+                    "components": [
+                        {
+                            "original": "Mouloukhia",
+                            "id": "ING061",
+                            "canonical_name": "molokhia",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "free-range chicken",
+                    "components": [
+                        {
+                            "original": "free-range chicken",
+                            "id": "ING057",
+                            "canonical_name": "chicken",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "basmati rice",
+                    "components": [
+                        {
+                            "original": "basmati rice",
+                            "id": "ING006",
+                            "canonical_name": "rice",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "coriander",
+                    "components": [],
+                    "alternatives": [],
+                    "status": "needs_review",
+                    "review_reason": "Could mean coriander seeds or fresh coriander leaves."
+                },
+                {
+                    "original": "garlic cloves",
+                    "components": [
+                        {
+                            "original": "garlic cloves",
+                            "id": "ING008",
+                            "canonical_name": "garlic",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "onion",
+                    "components": [
+                        {
+                            "original": "onion",
+                            "id": "ING002",
+                            "canonical_name": "onion",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "shallots",
+                    "components": [
+                        {
+                            "original": "shallots",
+                            "id": "ING065",
+                            "canonical_name": "shallot",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "pitta bread",
+                    "components": [
+                        {
+                            "original": "pitta bread",
+                            "id": "ING034",
+                            "canonical_name": "pita bread",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "vinegar",
+                    "components": [
+                        {
+                            "original": "vinegar",
+                            "id": "ING045",
+                            "canonical_name": "vinegar",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "juice of lemons",
+                    "components": [
+                        {
+                            "original": "juice of lemons",
+                            "id": "ING009",
+                            "canonical_name": "lemon",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "vegetable oil",
+                    "components": [
+                        {
+                            "original": "vegetable oil",
+                            "id": "ING037",
+                            "canonical_name": "vegetable oil",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                },
+                {
+                    "original": "salt",
+                    "components": [
+                        {
+                            "original": "salt",
+                            "id": "ING014",
+                            "canonical_name": "salt",
+                            "status": "matched"
+                        }
+                    ],
+                    "alternatives": [],
+                    "status": "matched"
+                }
+            ],
+            "source": "Lebanon Food Composition Data",
+            "source_page": 63,
+            "has_quantities": false,
+            "has_instructions": false
+        }
+    ]
+}

@@ -1,0 +1,1629 @@
+{
+  "dataset_name": "Lebanese Recipe Knowledge Base — Enriched Batch 1",
+  "language": "en",
+  "batch_number": 1,
+  "recipe_count": 5,
+  "notes": [
+    "This is a separate enriched recipe batch; it does not overwrite the existing 30-dish reference file.",
+    "Instructions are concise paraphrases of the cited sources, not copied verbatim.",
+    "ingredients_normalized is intentionally empty. Run the project's IngredientNormalizer and review unmatched names before using quantity-aware grocery calculations.",
+    "Ingredient quantities are source-specific and should not be merged across recipe variants.",
+    "Check source terms and any optional ingredients before publishing or redistributing the dataset."
+  ],
+  "recipes": [
+    {
+      "id": "LB001",
+      "name_en": "Baba ghanouj",
+      "source_display_name": "Moutabal (tahini-rich charred aubergine dip)",
+      "name_ar": null,
+      "category": "mezze",
+      "servings": 4,
+      "preparation_time_minutes": 15,
+      "cooking_time_minutes": 20,
+      "total_time_minutes": 35,
+      "time_notes": "Source timing; draining and resting time may add about 25 minutes.",
+      "ingredients_original": [
+        "large globe aubergines",
+        "tahini",
+        "lemon juice",
+        "garlic",
+        "strained yoghurt (optional)",
+        "salt",
+        "extra virgin olive oil",
+        "pomegranate seeds",
+        "parsley",
+        "ground red pepper"
+      ],
+      "ingredients_detailed": [
+        {
+          "name": "large globe aubergines",
+          "quantity": 3,
+          "unit": "pieces",
+          "approximate_metric_quantity": 1000,
+          "approximate_metric_unit": "g",
+          "optional": false,
+          "ingredient_id": "ING011",
+          "canonical_name": "eggplant"
+        },
+        {
+          "name": "tahini",
+          "quantity": 4,
+          "unit": "tablespoons",
+          "optional": false,
+          "ingredient_id": "ING012",
+          "canonical_name": "tahini"
+        },
+        {
+          "name": "lemon juice",
+          "quantity": 1,
+          "unit": "lemon",
+          "optional": false,
+          "ingredient_id": "ING009",
+          "canonical_name": "lemon"
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "optional": false,
+          "ingredient_id": "ING008",
+          "canonical_name": "garlic"
+        },
+        {
+          "name": "strained yoghurt",
+          "quantity": 2,
+          "unit": "tablespoons",
+          "optional": true,
+          "ingredient_id": "ING025",
+          "canonical_name": "yogurt"
+        },
+        {
+          "name": "salt",
+          "quantity": 1,
+          "unit": "teaspoon",
+          "optional": false,
+          "ingredient_id": "ING014",
+          "canonical_name": "salt"
+        },
+        {
+          "name": "extra virgin olive oil",
+          "quantity": 3,
+          "unit": "tablespoons",
+          "optional": false,
+          "ingredient_id": "ING007",
+          "canonical_name": "olive oil"
+        },
+        {
+          "name": "pomegranate seeds",
+          "quantity": 3,
+          "unit": "tablespoons",
+          "optional": false,
+          "ingredient_id": "ING013",
+          "canonical_name": "pomegranate seeds"
+        },
+        {
+          "name": "parsley",
+          "quantity": null,
+          "unit": "a few sprigs",
+          "optional": false,
+          "ingredient_id": "ING003",
+          "canonical_name": "parsley"
+        },
+        {
+          "name": "ground red pepper",
+          "quantity": null,
+          "unit": "a pinch",
+          "optional": false,
+          "ingredient_id": "ING070",
+          "canonical_name": "ground red pepper"
+        }
+      ],
+      "ingredients_normalized": [
+        {
+          "original": "large globe aubergines",
+          "components": [
+            {
+              "original": "large globe aubergines",
+              "id": "ING011",
+              "canonical_name": "eggplant",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "tahini",
+          "components": [
+            {
+              "original": "tahini",
+              "id": "ING012",
+              "canonical_name": "tahini",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "lemon juice",
+          "components": [
+            {
+              "original": "lemon juice",
+              "id": "ING009",
+              "canonical_name": "lemon",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "garlic",
+          "components": [
+            {
+              "original": "garlic",
+              "id": "ING008",
+              "canonical_name": "garlic",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "strained yoghurt",
+          "components": [
+            {
+              "original": "strained yoghurt",
+              "id": "ING025",
+              "canonical_name": "yogurt",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "salt",
+          "components": [
+            {
+              "original": "salt",
+              "id": "ING014",
+              "canonical_name": "salt",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "extra virgin olive oil",
+          "components": [
+            {
+              "original": "extra virgin olive oil",
+              "id": "ING007",
+              "canonical_name": "olive oil",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "pomegranate seeds",
+          "components": [
+            {
+              "original": "pomegranate seeds",
+              "id": "ING013",
+              "canonical_name": "pomegranate seeds",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "parsley",
+          "components": [
+            {
+              "original": "parsley",
+              "id": "ING003",
+              "canonical_name": "parsley",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "ground red pepper",
+          "components": [
+            {
+              "original": "ground red pepper",
+              "id": "ING070",
+              "canonical_name": "ground red pepper",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text_en": "Prick the aubergines and char them over a gas flame or barbecue, turning until the skins are blackened and the flesh is soft."
+        },
+        {
+          "step": 2,
+          "text_en": "Cover briefly to steam, peel, then leave the flesh in a sieve to drain."
+        },
+        {
+          "step": 3,
+          "text_en": "Mash the aubergine coarsely; avoid turning it into a completely smooth purée."
+        },
+        {
+          "step": 4,
+          "text_en": "Mix with crushed garlic, tahini, lemon juice and salt. Add yoghurt only if desired."
+        },
+        {
+          "step": 5,
+          "text_en": "Spread on a plate and finish with olive oil, pomegranate seeds, parsley and a little red pepper."
+        }
+      ],
+      "source": [
+        {
+          "name": "Gurmestan — Moutabal, Lebanese cuisine",
+          "url": "https://gurmestan.com/en/recipes/baba-ghanoush-lubnan/",
+          "source_type": "published_recipe",
+          "used_for": "Primary quantities, timings and method",
+          "accessed_date": "2026-11-13"
+        },
+        {
+          "name": "Cooking for all Seasons (1994), recipe submitted by Riad Rahal",
+          "url": "https://cmosarchives.ca/History/Cooking_for_all_Seasons1994.pdf",
+          "source_type": "community_cookbook",
+          "used_for": "Historical cross-reference: a recipe titled 'Baba Ghanouj (The Lebanese way)' uses eggplant, tahini, lemon, garlic and salt, with quantities for five people",
+          "accessed_date": "2026-11-13"
+        }
+      ],
+      "verification_status": "source_checked_name_and_ingredients",
+      "notes": [
+        "Gurmestan identifies the tahini-rich Lebanese preparation as moutabal and explains that baba ghanouj in Lebanon can refer to a different tahini-free eggplant salad.",
+        "The existing LB001 record includes tahini, so this batch retains LB001 and records the source name as Moutabal.",
+        "A 1994 community cookbook uses the name Baba Ghanouj for a tahini-containing preparation, demonstrating variation in naming. Do not merge its quantities with the primary recipe.",
+        "The source's draining/resting instructions add time beyond the stated 15-minute preparation and 20-minute cooking estimates."
+      ]
+    },
+    {
+      "id": "LB005",
+      "name_en": "Falafel",
+      "name_ar": "فلافل",
+      "category": "street_food",
+      "servings": 8,
+      "preparation_time_minutes": 50,
+      "cooking_time_minutes": null,
+      "total_time_minutes": null,
+      "time_notes": "Published page states 50 minutes; chickpea soaking takes an additional 18–24 hours. Frying is included in the method but no separate cook-time figure is published.",
+      "ingredients_original": [
+        "dried chickpeas (not canned)",
+        "flat-leaf parsley",
+        "fresh coriander",
+        "spring onions",
+        "garlic",
+        "ground cumin",
+        "ground coriander",
+        "baking powder",
+        "salt",
+        "white sesame seeds",
+        "sunflower oil"
+      ],
+      "ingredients_detailed": [
+        {
+          "name": "dried chickpeas (not canned)",
+          "quantity": 400,
+          "unit": "g",
+          "optional": false,
+          "ingredient_id": "ING004",
+          "canonical_name": "chickpeas"
+        },
+        {
+          "name": "flat-leaf parsley",
+          "quantity": 2,
+          "unit": "packed cups",
+          "optional": false,
+          "ingredient_id": "ING003",
+          "canonical_name": "parsley"
+        },
+        {
+          "name": "fresh coriander",
+          "quantity": 1,
+          "unit": "packed cup",
+          "optional": false,
+          "ingredient_id": "ING030",
+          "canonical_name": "cilantro"
+        },
+        {
+          "name": "spring onions",
+          "quantity": 5,
+          "unit": "pieces",
+          "optional": false,
+          "ingredient_id": "ING044",
+          "canonical_name": "spring onion"
+        },
+        {
+          "name": "garlic",
+          "quantity": 4,
+          "unit": "cloves",
+          "optional": false,
+          "ingredient_id": "ING008",
+          "canonical_name": "garlic"
+        },
+        {
+          "name": "ground cumin",
+          "quantity": 1.5,
+          "unit": "teaspoons",
+          "optional": false,
+          "ingredient_id": "ING050",
+          "canonical_name": "cumin"
+        },
+        {
+          "name": "ground coriander",
+          "quantity": 1,
+          "unit": "teaspoon",
+          "optional": false,
+          "ingredient_id": "ING069",
+          "canonical_name": "ground coriander"
+        },
+        {
+          "name": "baking powder",
+          "quantity": 1,
+          "unit": "teaspoon",
+          "optional": false,
+          "ingredient_id": "ING068",
+          "canonical_name": "baking powder"
+        },
+        {
+          "name": "salt",
+          "quantity": 1.5,
+          "unit": "teaspoons",
+          "optional": false,
+          "ingredient_id": "ING014",
+          "canonical_name": "salt"
+        },
+        {
+          "name": "white sesame seeds",
+          "quantity": 2,
+          "unit": "tablespoons",
+          "optional": false,
+          "ingredient_id": "ING073",
+          "canonical_name": "sesame seeds"
+        },
+        {
+          "name": "sunflower oil",
+          "quantity": 1,
+          "unit": "liter",
+          "usage": "for deep frying",
+          "optional": false,
+          "ingredient_id": "ING072",
+          "canonical_name": "sunflower oil"
+        }
+      ],
+      "ingredients_normalized": [
+        {
+          "original": "dried chickpeas (not canned)",
+          "components": [
+            {
+              "original": "dried chickpeas (not canned)",
+              "id": "ING004",
+              "canonical_name": "chickpeas",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "flat-leaf parsley",
+          "components": [
+            {
+              "original": "flat-leaf parsley",
+              "id": "ING003",
+              "canonical_name": "parsley",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "fresh coriander",
+          "components": [
+            {
+              "original": "fresh coriander",
+              "id": "ING030",
+              "canonical_name": "cilantro",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "spring onions",
+          "components": [
+            {
+              "original": "spring onions",
+              "id": "ING044",
+              "canonical_name": "spring onion",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "garlic",
+          "components": [
+            {
+              "original": "garlic",
+              "id": "ING008",
+              "canonical_name": "garlic",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "ground cumin",
+          "components": [
+            {
+              "original": "ground cumin",
+              "id": "ING050",
+              "canonical_name": "cumin",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "ground coriander",
+          "components": [
+            {
+              "original": "ground coriander",
+              "id": "ING069",
+              "canonical_name": "ground coriander",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "baking powder",
+          "components": [
+            {
+              "original": "baking powder",
+              "id": "ING068",
+              "canonical_name": "baking powder",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "salt",
+          "components": [
+            {
+              "original": "salt",
+              "id": "ING014",
+              "canonical_name": "salt",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "white sesame seeds",
+          "components": [
+            {
+              "original": "white sesame seeds",
+              "id": "ING073",
+              "canonical_name": "sesame seeds",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "sunflower oil",
+          "components": [
+            {
+              "original": "sunflower oil",
+              "id": "ING072",
+              "canonical_name": "sunflower oil",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text_en": "Soak the dried chickpeas in cold water for 18–24 hours, then drain and dry them thoroughly."
+        },
+        {
+          "step": 2,
+          "text_en": "Pulse the chickpeas in a food processor until they resemble coarse crumbs, not a paste."
+        },
+        {
+          "step": 3,
+          "text_en": "Add parsley, coriander, spring onions, garlic, cumin, ground coriander and salt; pulse until finely chopped and combined."
+        },
+        {
+          "step": 4,
+          "text_en": "Mix in the baking powder and refrigerate the mixture for at least 30 minutes."
+        },
+        {
+          "step": 5,
+          "text_en": "Heat the sunflower oil to about 175°C. Shape the mixture into small rounds and press sesame seeds onto the outside."
+        },
+        {
+          "step": 6,
+          "text_en": "Fry in batches for 3–4 minutes, turning once, until golden. Drain and serve promptly."
+        }
+      ],
+      "source": [
+        {
+          "name": "SOFRA — Falafel, Lebanese coast",
+          "url": "https://sofrabeirut.com/recipes/falafel",
+          "source_type": "published_recipe",
+          "used_for": "Quantities, servings, timing and method",
+          "accessed_date": "2026-11-13"
+        }
+      ],
+      "verification_status": "source_checked",
+      "notes": [
+        "The source explicitly specifies dried chickpeas and says not to use canned chickpeas.",
+        "The 18–24-hour soak is additional to the stated 50-minute recipe time.",
+        "The source identifies this version as Lebanese coastal falafel and notes its herb-forward parsley and coriander mixture."
+      ]
+    },
+    {
+      "id": "LB008",
+      "name_en": "Fattoush",
+      "name_ar": "فتوش",
+      "category": "salad",
+      "servings": 4,
+      "preparation_time_minutes": 20,
+      "cooking_time_minutes": 10,
+      "total_time_minutes": 30,
+      "time_notes": "Published source timing.",
+      "ingredients_original": [
+        "Lebanese flatbread or lavash",
+        "purslane",
+        "romaine lettuce",
+        "tomatoes",
+        "cucumbers",
+        "radishes",
+        "green pepper",
+        "spring onions",
+        "parsley",
+        "mint",
+        "sumac",
+        "pomegranate molasses",
+        "lemon juice",
+        "garlic",
+        "extra virgin olive oil",
+        "salt"
+      ],
+      "ingredients_detailed": [
+        {
+          "name": "Lebanese flatbread or lavash",
+          "quantity": 2,
+          "unit": "pieces",
+          "optional": false,
+          "ingredient_id": "ING067",
+          "canonical_name": "flatbread"
+        },
+        {
+          "name": "purslane",
+          "quantity": 1,
+          "unit": "bunch",
+          "optional": false,
+          "ingredient_id": "ING071",
+          "canonical_name": "purslane"
+        },
+        {
+          "name": "romaine lettuce",
+          "quantity": 0.5,
+          "unit": "head",
+          "optional": false,
+          "ingredient_id": "ING035",
+          "canonical_name": "lettuce"
+        },
+        {
+          "name": "tomatoes",
+          "quantity": 3,
+          "unit": "pieces",
+          "optional": false,
+          "ingredient_id": "ING001",
+          "canonical_name": "tomato"
+        },
+        {
+          "name": "cucumbers",
+          "quantity": 2,
+          "unit": "pieces",
+          "optional": false,
+          "ingredient_id": "ING010",
+          "canonical_name": "cucumber"
+        },
+        {
+          "name": "radishes",
+          "quantity": 6,
+          "unit": "pieces",
+          "optional": false,
+          "ingredient_id": "ING036",
+          "canonical_name": "radish"
+        },
+        {
+          "name": "green pepper",
+          "quantity": 1,
+          "unit": "piece",
+          "optional": false,
+          "ingredient_id": "ING075",
+          "canonical_name": "green bell pepper"
+        },
+        {
+          "name": "spring onions",
+          "quantity": 4,
+          "unit": "stalks",
+          "optional": false,
+          "ingredient_id": "ING044",
+          "canonical_name": "spring onion"
+        },
+        {
+          "name": "parsley",
+          "quantity": 0.5,
+          "unit": "bunch",
+          "optional": false,
+          "ingredient_id": "ING003",
+          "canonical_name": "parsley"
+        },
+        {
+          "name": "mint",
+          "quantity": 0.5,
+          "unit": "bunch",
+          "optional": false,
+          "ingredient_id": "ING027",
+          "canonical_name": "mint"
+        },
+        {
+          "name": "sumac",
+          "quantity": 1,
+          "unit": "tablespoon",
+          "optional": false,
+          "ingredient_id": "ING043",
+          "canonical_name": "sumac"
+        },
+        {
+          "name": "pomegranate molasses",
+          "quantity": 1,
+          "unit": "tablespoon",
+          "optional": false,
+          "ingredient_id": "ING039",
+          "canonical_name": "pomegranate molasses"
+        },
+        {
+          "name": "lemon juice",
+          "quantity": 1,
+          "unit": "lemon",
+          "optional": false,
+          "ingredient_id": "ING009",
+          "canonical_name": "lemon"
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "optional": false,
+          "ingredient_id": "ING008",
+          "canonical_name": "garlic"
+        },
+        {
+          "name": "extra virgin olive oil",
+          "quantity": 100,
+          "unit": "ml",
+          "optional": false,
+          "ingredient_id": "ING007",
+          "canonical_name": "olive oil"
+        },
+        {
+          "name": "salt",
+          "quantity": null,
+          "unit": "to taste",
+          "optional": false,
+          "ingredient_id": "ING014",
+          "canonical_name": "salt"
+        }
+      ],
+      "ingredients_normalized": [
+        {
+          "original": "Lebanese flatbread or lavash",
+          "components": [
+            {
+              "original": "Lebanese flatbread or lavash",
+              "id": "ING067",
+              "canonical_name": "flatbread",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "purslane",
+          "components": [
+            {
+              "original": "purslane",
+              "id": "ING071",
+              "canonical_name": "purslane",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "romaine lettuce",
+          "components": [
+            {
+              "original": "romaine lettuce",
+              "id": "ING035",
+              "canonical_name": "lettuce",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "tomatoes",
+          "components": [
+            {
+              "original": "tomatoes",
+              "id": "ING001",
+              "canonical_name": "tomato",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "cucumbers",
+          "components": [
+            {
+              "original": "cucumbers",
+              "id": "ING010",
+              "canonical_name": "cucumber",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "radishes",
+          "components": [
+            {
+              "original": "radishes",
+              "id": "ING036",
+              "canonical_name": "radish",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "green pepper",
+          "components": [
+            {
+              "original": "green pepper",
+              "id": "ING075",
+              "canonical_name": "green bell pepper",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "spring onions",
+          "components": [
+            {
+              "original": "spring onions",
+              "id": "ING044",
+              "canonical_name": "spring onion",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "parsley",
+          "components": [
+            {
+              "original": "parsley",
+              "id": "ING003",
+              "canonical_name": "parsley",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "mint",
+          "components": [
+            {
+              "original": "mint",
+              "id": "ING027",
+              "canonical_name": "mint",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "sumac",
+          "components": [
+            {
+              "original": "sumac",
+              "id": "ING043",
+              "canonical_name": "sumac",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "pomegranate molasses",
+          "components": [
+            {
+              "original": "pomegranate molasses",
+              "id": "ING039",
+              "canonical_name": "pomegranate molasses",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "lemon juice",
+          "components": [
+            {
+              "original": "lemon juice",
+              "id": "ING009",
+              "canonical_name": "lemon",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "garlic",
+          "components": [
+            {
+              "original": "garlic",
+              "id": "ING008",
+              "canonical_name": "garlic",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "extra virgin olive oil",
+          "components": [
+            {
+              "original": "extra virgin olive oil",
+              "id": "ING007",
+              "canonical_name": "olive oil",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "salt",
+          "components": [
+            {
+              "original": "salt",
+              "id": "ING014",
+              "canonical_name": "salt",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text_en": "Cut the flatbread into bite-sized pieces, coat with about 3 tablespoons of olive oil and bake at 190°C for 8–10 minutes until crisp."
+        },
+        {
+          "step": 2,
+          "text_en": "Chop the tomatoes, cucumbers and pepper; slice the radishes, tear the lettuce and pick the purslane leaves."
+        },
+        {
+          "step": 3,
+          "text_en": "Whisk crushed garlic with sumac, pomegranate molasses, lemon juice, salt and the remaining olive oil."
+        },
+        {
+          "step": 4,
+          "text_en": "Toss the vegetables and herbs with the dressing."
+        },
+        {
+          "step": 5,
+          "text_en": "Add most of the crisp bread just before serving, toss once and finish with the remaining bread and a little sumac."
+        }
+      ],
+      "source": [
+        {
+          "name": "Gurmestan — Fattoush, Lebanon · Bekaa · Zahle",
+          "url": "https://gurmestan.com/en/recipes/fattoush-lubnan/",
+          "source_type": "published_recipe",
+          "used_for": "Quantities, servings, timing and method",
+          "accessed_date": "2026-11-13"
+        }
+      ],
+      "verification_status": "source_checked",
+      "notes": [
+        "The source describes purslane, sumac and crisp flatbread as defining elements of this village-style fattoush.",
+        "The source lists 100 ml olive oil in total and allocates about 3 tablespoons to the bread; the remainder is used in the dressing.",
+        "Salt is listed to taste; no numeric amount is supplied."
+      ]
+    },
+    {
+      "id": "LB011",
+      "name_en": "Hummos bi tahini",
+      "source_display_name": "Hummus bi Tahina",
+      "name_ar": "حمص بطحينة",
+      "category": "mezze",
+      "servings": 6,
+      "preparation_time_minutes": 15,
+      "cooking_time_minutes": 90,
+      "total_time_minutes": null,
+      "time_notes": "Prep time includes overnight soaking; cooking is stated as 1 hour 30 minutes.",
+      "ingredients_original": [
+        "dried chickpeas",
+        "bicarbonate of soda",
+        "tahini",
+        "lemon juice",
+        "garlic",
+        "iced water",
+        "salt",
+        "extra virgin olive oil",
+        "ground red pepper or sumac",
+        "parsley",
+        "whole chickpeas (garnish)"
+      ],
+      "ingredients_detailed": [
+        {
+          "name": "dried chickpeas",
+          "quantity": 250,
+          "unit": "g",
+          "optional": false,
+          "ingredient_id": "ING004",
+          "canonical_name": "chickpeas"
+        },
+        {
+          "name": "bicarbonate of soda",
+          "quantity": 1,
+          "unit": "teaspoon",
+          "optional": false,
+          "ingredient_id": "ING042",
+          "canonical_name": "baking soda"
+        },
+        {
+          "name": "tahini",
+          "quantity": 120,
+          "unit": "g",
+          "optional": false,
+          "ingredient_id": "ING012",
+          "canonical_name": "tahini"
+        },
+        {
+          "name": "lemon juice",
+          "quantity": 1.5,
+          "unit": "lemons",
+          "optional": false,
+          "ingredient_id": "ING009",
+          "canonical_name": "lemon"
+        },
+        {
+          "name": "garlic",
+          "quantity": 1,
+          "unit": "clove",
+          "optional": false,
+          "ingredient_id": "ING008",
+          "canonical_name": "garlic"
+        },
+        {
+          "name": "iced water",
+          "quantity": "4-6",
+          "unit": "tablespoons",
+          "optional": false,
+          "ingredient_id": "ING020",
+          "canonical_name": "water"
+        },
+        {
+          "name": "salt",
+          "quantity": 1,
+          "unit": "teaspoon",
+          "optional": false,
+          "ingredient_id": "ING014",
+          "canonical_name": "salt"
+        },
+        {
+          "name": "extra virgin olive oil",
+          "quantity": 4,
+          "unit": "tablespoons",
+          "optional": false,
+          "ingredient_id": "ING007",
+          "canonical_name": "olive oil"
+        },
+        {
+          "name": "ground red pepper or sumac",
+          "quantity": 0.5,
+          "unit": "teaspoon",
+          "optional": false,
+          "ingredient_id": null,
+          "canonical_name": null
+        },
+        {
+          "name": "parsley",
+          "quantity": null,
+          "unit": "a pinch",
+          "usage": "garnish",
+          "optional": false,
+          "ingredient_id": "ING003",
+          "canonical_name": "parsley"
+        },
+        {
+          "name": "whole chickpeas",
+          "quantity": null,
+          "unit": "a few",
+          "usage": "garnish",
+          "optional": false,
+          "ingredient_id": "ING004",
+          "canonical_name": "chickpeas"
+        }
+      ],
+      "ingredients_normalized": [
+        {
+          "original": "dried chickpeas",
+          "components": [
+            {
+              "original": "dried chickpeas",
+              "id": "ING004",
+              "canonical_name": "chickpeas",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "bicarbonate of soda",
+          "components": [
+            {
+              "original": "bicarbonate of soda",
+              "id": "ING042",
+              "canonical_name": "baking soda",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "tahini",
+          "components": [
+            {
+              "original": "tahini",
+              "id": "ING012",
+              "canonical_name": "tahini",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "lemon juice",
+          "components": [
+            {
+              "original": "lemon juice",
+              "id": "ING009",
+              "canonical_name": "lemon",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "garlic",
+          "components": [
+            {
+              "original": "garlic",
+              "id": "ING008",
+              "canonical_name": "garlic",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "iced water",
+          "components": [
+            {
+              "original": "iced water",
+              "id": "ING020",
+              "canonical_name": "water",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "salt",
+          "components": [
+            {
+              "original": "salt",
+              "id": "ING014",
+              "canonical_name": "salt",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "extra virgin olive oil",
+          "components": [
+            {
+              "original": "extra virgin olive oil",
+              "id": "ING007",
+              "canonical_name": "olive oil",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "ground red pepper or sumac",
+          "components": [],
+          "alternatives": [
+            {
+              "original": "ground red pepper",
+              "id": "ING064",
+              "canonical_name": "red pepper",
+              "status": "matched"
+            },
+            {
+              "original": "sumac",
+              "id": "ING043",
+              "canonical_name": "sumac",
+              "status": "matched"
+            }
+          ],
+          "status": "needs_review"
+        },
+        {
+          "original": "parsley",
+          "components": [
+            {
+              "original": "parsley",
+              "id": "ING003",
+              "canonical_name": "parsley",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "whole chickpeas",
+          "components": [
+            {
+              "original": "whole chickpeas",
+              "id": "ING004",
+              "canonical_name": "chickpeas",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text_en": "Soak the chickpeas overnight in plenty of water."
+        },
+        {
+          "step": 2,
+          "text_en": "Drain, coat with half a teaspoon of bicarbonate of soda and stir for about 3 minutes. Add fresh water and simmer for 1–1.5 hours until very soft; skim foam and loose skins."
+        },
+        {
+          "step": 3,
+          "text_en": "Blend lemon juice, garlic and salt. Add tahini, then gradually blend in iced water until pale and creamy."
+        },
+        {
+          "step": 4,
+          "text_en": "Add the hot cooked chickpeas and blend for 3–4 minutes until smooth, reserving a few chickpeas for garnish."
+        },
+        {
+          "step": 5,
+          "text_en": "Spread on a plate, make a shallow well, drizzle with olive oil and garnish with pepper or sumac, parsley and reserved chickpeas."
+        }
+      ],
+      "source": [
+        {
+          "name": "Gurmestan — Hummus bi Tahina, Lebanon · Beirut",
+          "url": "https://gurmestan.com/en/recipes/hummus-lubnan/",
+          "source_type": "published_recipe",
+          "used_for": "Quantities, servings, timing and method",
+          "accessed_date": "2026-11-13"
+        }
+      ],
+      "verification_status": "source_checked",
+      "notes": [
+        "The source explains that hummus has a broader Eastern Mediterranean history and does not claim an exclusive national birthplace; this entry records a Lebanese-style version.",
+        "The source gives 1 teaspoon bicarbonate of soda in the ingredient list, while the method specifies using half a teaspoon during the chickpea preparation. Preserve this discrepancy for review instead of silently reconciling it.",
+        "The source lists lemon juice as 1.5 lemons rather than a measured volume."
+      ]
+    },
+    {
+      "id": "LB026",
+      "name_en": "Tabboula",
+      "source_display_name": "Tabbouleh",
+      "name_ar": "تبولة",
+      "category": "salad",
+      "servings": 4,
+      "preparation_time_minutes": 30,
+      "cooking_time_minutes": 0,
+      "total_time_minutes": 30,
+      "time_notes": "No cooking; published prep time is 30 minutes.",
+      "ingredients_original": [
+        "flat-leaf parsley",
+        "fresh mint",
+        "fine bulgur",
+        "ripe tomatoes",
+        "spring onions",
+        "lemon juice",
+        "extra virgin olive oil",
+        "seven spices or allspice",
+        "salt",
+        "black pepper",
+        "lettuce or white cabbage leaves"
+      ],
+      "ingredients_detailed": [
+        {
+          "name": "flat-leaf parsley",
+          "quantity": 4,
+          "unit": "large bunches",
+          "optional": false,
+          "ingredient_id": "ING003",
+          "canonical_name": "parsley"
+        },
+        {
+          "name": "fresh mint",
+          "quantity": 1,
+          "unit": "bunch",
+          "optional": false,
+          "ingredient_id": "ING027",
+          "canonical_name": "mint"
+        },
+        {
+          "name": "fine bulgur",
+          "quantity": 3,
+          "unit": "tablespoons",
+          "optional": false,
+          "ingredient_id": "ING018",
+          "canonical_name": "bulgur"
+        },
+        {
+          "name": "ripe tomatoes",
+          "quantity": 3,
+          "unit": "pieces",
+          "optional": false,
+          "ingredient_id": "ING001",
+          "canonical_name": "tomato"
+        },
+        {
+          "name": "spring onions",
+          "quantity": 4,
+          "unit": "stalks",
+          "optional": false,
+          "ingredient_id": "ING044",
+          "canonical_name": "spring onion"
+        },
+        {
+          "name": "lemon juice",
+          "quantity": 2,
+          "unit": "lemons",
+          "optional": false,
+          "ingredient_id": "ING009",
+          "canonical_name": "lemon"
+        },
+        {
+          "name": "extra virgin olive oil",
+          "quantity": 80,
+          "unit": "ml",
+          "optional": false,
+          "ingredient_id": "ING007",
+          "canonical_name": "olive oil"
+        },
+        {
+          "name": "seven spices or allspice",
+          "quantity": 0.5,
+          "unit": "teaspoon",
+          "optional": false,
+          "ingredient_id": null,
+          "canonical_name": null
+        },
+        {
+          "name": "salt",
+          "quantity": null,
+          "unit": "to taste",
+          "optional": false,
+          "ingredient_id": "ING014",
+          "canonical_name": "salt"
+        },
+        {
+          "name": "black pepper",
+          "quantity": null,
+          "unit": "to taste",
+          "optional": false,
+          "ingredient_id": "ING015",
+          "canonical_name": "black pepper"
+        },
+        {
+          "name": "lettuce or white cabbage leaves",
+          "quantity": 1,
+          "unit": "head",
+          "usage": "to serve",
+          "optional": false,
+          "ingredient_id": null,
+          "canonical_name": null
+        }
+      ],
+      "ingredients_normalized": [
+        {
+          "original": "flat-leaf parsley",
+          "components": [
+            {
+              "original": "flat-leaf parsley",
+              "id": "ING003",
+              "canonical_name": "parsley",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "fresh mint",
+          "components": [
+            {
+              "original": "fresh mint",
+              "id": "ING027",
+              "canonical_name": "mint",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "fine bulgur",
+          "components": [
+            {
+              "original": "fine bulgur",
+              "id": "ING018",
+              "canonical_name": "bulgur",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "ripe tomatoes",
+          "components": [
+            {
+              "original": "ripe tomatoes",
+              "id": "ING001",
+              "canonical_name": "tomato",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "spring onions",
+          "components": [
+            {
+              "original": "spring onions",
+              "id": "ING044",
+              "canonical_name": "spring onion",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "lemon juice",
+          "components": [
+            {
+              "original": "lemon juice",
+              "id": "ING009",
+              "canonical_name": "lemon",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "extra virgin olive oil",
+          "components": [
+            {
+              "original": "extra virgin olive oil",
+              "id": "ING007",
+              "canonical_name": "olive oil",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "seven spices or allspice",
+          "components": [],
+          "alternatives": [
+            {
+              "original": "seven spices",
+              "id": "ING074",
+              "canonical_name": "seven spices",
+              "status": "matched"
+            },
+            {
+              "original": "allspice",
+              "id": "ING052",
+              "canonical_name": "allspice",
+              "status": "matched"
+            }
+          ],
+          "status": "needs_review"
+        },
+        {
+          "original": "salt",
+          "components": [
+            {
+              "original": "salt",
+              "id": "ING014",
+              "canonical_name": "salt",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "black pepper",
+          "components": [
+            {
+              "original": "black pepper",
+              "id": "ING015",
+              "canonical_name": "black pepper",
+              "status": "matched"
+            }
+          ],
+          "alternatives": [],
+          "status": "matched"
+        },
+        {
+          "original": "lettuce or white cabbage leaves",
+          "components": [],
+          "alternatives": [
+            {
+              "original": "lettuce",
+              "id": "ING035",
+              "canonical_name": "lettuce",
+              "status": "matched"
+            },
+            {
+              "original": "white cabbage leaves",
+              "id": "ING055",
+              "canonical_name": "cabbage",
+              "status": "matched"
+            }
+          ],
+          "status": "needs_review"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text_en": "Rinse and drain the fine bulgur, then leave it with half the lemon juice for about 15 minutes to soften."
+        },
+        {
+          "step": 2,
+          "text_en": "Remove thick parsley stems. Wash and dry the parsley completely, then finely chop it with a sharp knife. Finely chop the mint as well."
+        },
+        {
+          "step": 3,
+          "text_en": "Dice the tomatoes finely and slice the spring onions into thin rings."
+        },
+        {
+          "step": 4,
+          "text_en": "Just before serving, combine the bulgur, herbs, tomatoes and onions. Toss gently with the remaining lemon juice, olive oil, spice, salt and pepper."
+        },
+        {
+          "step": 5,
+          "text_en": "Serve immediately with lettuce or cabbage leaves."
+        }
+      ],
+      "source": [
+        {
+          "name": "Gurmestan — Tabbouleh, Lebanon · Beirut",
+          "url": "https://gurmestan.com/en/recipes/tabbouleh-lubnan/",
+          "source_type": "published_recipe",
+          "used_for": "Quantities, servings, timing and method",
+          "accessed_date": "2026-11-13"
+        },
+        {
+          "name": "Visit Lebanon / Food Heritage Foundation — A Tale of Tabbouleh",
+          "url": "https://crm.visit-lebanon.org/alternatedocroots/af7d2439-bd47-48b7-abfb-7f39af7f6743-LT23.pdf",
+          "source_type": "culinary_heritage_reference",
+          "used_for": "Cultural cross-check: parsley-led salad with tomato, mint, onion, fine bulgur, lemon and olive oil",
+          "accessed_date": "2026-11-13"
+        }
+      ],
+      "verification_status": "source_checked",
+      "notes": [
+        "The source emphasizes that parsley is the main ingredient and bulgur is used sparingly.",
+        "The heritage reference independently describes the common Lebanese ingredient pattern but does not provide exact quantities.",
+        "The source permits either seven spices or allspice; retain this as a source-defined alternative."
+      ]
+    }
+  ]
+}

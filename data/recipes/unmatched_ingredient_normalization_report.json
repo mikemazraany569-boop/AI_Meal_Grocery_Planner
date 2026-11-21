@@ -1,0 +1,805 @@
+{
+    "total_unique_phrases": 58,
+    "total_occurrences": 71,
+    "summary": {
+        "matched": {
+            "unique_phrases": 37,
+            "occurrences": 39
+        },
+        "alternatives": {
+            "unique_phrases": 1,
+            "occurrences": 1
+        },
+        "needs_review": {
+            "unique_phrases": 20,
+            "occurrences": 31
+        }
+    },
+    "results": [
+        {
+            "original": "tomato juice",
+            "occurrences": 5,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Keep distinct from tomato and tomato paste."
+        },
+        {
+            "original": "pepper",
+            "occurrences": 4,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Could mean black pepper or sweet pepper."
+        },
+        {
+            "original": "salt and pepper",
+            "occurrences": 4,
+            "components": [
+                {
+                    "original": "salt",
+                    "id": "ING014",
+                    "canonical_name": "salt",
+                    "status": "matched"
+                },
+                {
+                    "original": "pepper",
+                    "id": null,
+                    "canonical_name": null,
+                    "status": "needs_review"
+                }
+            ],
+            "alternatives": [],
+            "status": "needs_review"
+        },
+        {
+            "original": "salt to taste",
+            "occurrences": 2,
+            "components": [
+                {
+                    "original": "salt to taste",
+                    "id": "ING014",
+                    "canonical_name": "salt",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "6 cloves of garlic",
+            "occurrences": 2,
+            "components": [
+                {
+                    "original": "6 cloves of garlic",
+                    "id": "ING008",
+                    "canonical_name": "garlic",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "coriander",
+            "occurrences": 2,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Could mean coriander seeds or fresh coriander leaves."
+        },
+        {
+            "original": "Coriander",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Could mean coriander seeds or fresh coriander leaves."
+        },
+        {
+            "original": "Lamb ground onions",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Ingredient boundaries are unclear."
+        },
+        {
+            "original": "Chichbarak Dough: multi-purpose flour",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Chichbarak Dough: multi-purpose flour",
+                    "id": "ING019",
+                    "canonical_name": "flour",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "water warm to form a paste",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "water warm to form a paste",
+                    "id": "ING020",
+                    "canonical_name": "water",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Meat Stuffing: ground beef",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Meat Stuffing: ground beef",
+                    "id": "ING024",
+                    "canonical_name": "beef",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "black pepper to taste",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "black pepper to taste",
+                    "id": "ING015",
+                    "canonical_name": "black pepper",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "cinnamon powder to taste",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "cinnamon powder to taste",
+                    "id": "ING048",
+                    "canonical_name": "cinnamon",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "onion finely chopped",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "onion finely chopped",
+                    "id": "ING002",
+                    "canonical_name": "onion",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "bushel of parsley chopped",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "bushel of parsley chopped",
+                    "id": "ING003",
+                    "canonical_name": "parsley",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Chich Barak Stew: yogurt",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Chich Barak Stew: yogurt",
+                    "id": "ING025",
+                    "canonical_name": "yogurt",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "garlic cloves crushed (optional)",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "garlic cloves crushed (optional)",
+                    "id": "ING008",
+                    "canonical_name": "garlic",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "dried chickpeas (Garbanzo beans)",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "dried chickpeas (Garbanzo beans)",
+                    "id": "ING004",
+                    "canonical_name": "chickpeas",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Italian parsley (chop away the stems)",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Italian parsley (chop away the stems)",
+                    "id": "ING003",
+                    "canonical_name": "parsley",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "green cilantro (chop away the stems)",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "green cilantro (chop away the stems)",
+                    "id": "ING030",
+                    "canonical_name": "cilantro",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "red or yellow onion",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "red or yellow onion",
+                    "id": "ING002",
+                    "canonical_name": "onion",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "red chili pepper (optional, if spicy falafel is desired)",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "red chili pepper (optional, if spicy falafel is desired)",
+                    "id": "ING031",
+                    "canonical_name": "chili pepper",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Falafel Tahini Sauce Ingredients: Tahini Paste",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Falafel Tahini Sauce Ingredients: Tahini Paste",
+                    "id": "ING012",
+                    "canonical_name": "tahini",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "garlic cloves, crushed",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "garlic cloves, crushed",
+                    "id": "ING008",
+                    "canonical_name": "garlic",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "tahini and vinegar",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "tahini",
+                    "id": "ING012",
+                    "canonical_name": "tahini",
+                    "status": "matched"
+                },
+                {
+                    "original": "vinegar",
+                    "id": "ING045",
+                    "canonical_name": "vinegar",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Lettuces or romaine lettuce",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Lettuces or romaine lettuce",
+                    "id": "ING035",
+                    "canonical_name": "lettuce",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "FInely ground beef (or lamb, lean, divided)",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [
+                {
+                    "original": "finely ground beef",
+                    "id": "ING024",
+                    "canonical_name": "beef",
+                    "status": "matched"
+                },
+                {
+                    "original": "lamb",
+                    "id": "ING023",
+                    "canonical_name": "lamb",
+                    "status": "matched"
+                }
+            ],
+            "status": "alternatives"
+        },
+        {
+            "original": "onions (finely chopped)",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "onions (finely chopped)",
+                    "id": "ING002",
+                    "canonical_name": "onion",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "small courgettes",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "zucchini",
+                    "id": null,
+                    "canonical_name": null,
+                    "status": "needs_review"
+                }
+            ],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "No reliable canonical ingredient match found."
+        },
+        {
+            "original": "salt and black pepper",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "salt",
+                    "id": "ING014",
+                    "canonical_name": "salt",
+                    "status": "matched"
+                },
+                {
+                    "original": "black pepper",
+                    "id": "ING015",
+                    "canonical_name": "black pepper",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "few drops of pomegranate molasses",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "few drops of pomegranate molasses",
+                    "id": "ING039",
+                    "canonical_name": "pomegranate molasses",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "white onions, sliced",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "white onions, sliced",
+                    "id": "ING002",
+                    "canonical_name": "onion",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Frozen bag green beans",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Frozen bag green beans",
+                    "id": "ING054",
+                    "canonical_name": "green beans",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "garlic cloves, peeled",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "garlic cloves, peeled",
+                    "id": "ING008",
+                    "canonical_name": "garlic",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Cans of chopped tomatoes",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Cans of chopped tomatoes",
+                    "id": "ING001",
+                    "canonical_name": "tomato",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Salt and sweet pepper, to taste",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "salt",
+                    "id": "ING014",
+                    "canonical_name": "salt",
+                    "status": "matched"
+                },
+                {
+                    "original": "sweet pepper",
+                    "id": "ING064",
+                    "canonical_name": "red pepper",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "7 spices",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Lebanese spice mixture; composition may vary."
+        },
+        {
+            "original": "basic vegetables stuffing",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Composite ingredient; components are unknown."
+        },
+        {
+            "original": "Green or coral lentils",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Green or coral lentils",
+                    "id": "ING005",
+                    "canonical_name": "lentils",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Dry dough",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "The ingredient is not sufficiently specified."
+        },
+        {
+            "original": "Eggplant, sliced into (you can leave skin on or peel)",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Eggplant, sliced into (you can leave skin on or peel)",
+                    "id": "ING011",
+                    "canonical_name": "eggplant",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "yellow or white onion, diced",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "yellow or white onion, diced",
+                    "id": "ING002",
+                    "canonical_name": "onion",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "garlic cloves, minced",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "garlic cloves, minced",
+                    "id": "ING008",
+                    "canonical_name": "garlic",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "low-salt chickpeas",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "low-salt chickpeas",
+                    "id": "ING004",
+                    "canonical_name": "chickpeas",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "low-salt diced tomatoes",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "low-salt diced tomatoes",
+                    "id": "ING001",
+                    "canonical_name": "tomato",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Piquant Post Spicy Mint blend",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Branded spice blend."
+        },
+        {
+            "original": "Pita chips or crusty bread for dipping",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [
+                {
+                    "original": "pita chips",
+                    "id": null,
+                    "canonical_name": null,
+                    "status": "needs_review"
+                },
+                {
+                    "original": "crusty bread",
+                    "id": null,
+                    "canonical_name": null,
+                    "status": "needs_review"
+                }
+            ],
+            "status": "needs_review"
+        },
+        {
+            "original": "salt and pepper to taste",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "salt",
+                    "id": "ING014",
+                    "canonical_name": "salt",
+                    "status": "matched"
+                },
+                {
+                    "original": "pepper",
+                    "id": null,
+                    "canonical_name": null,
+                    "status": "needs_review"
+                }
+            ],
+            "alternatives": [],
+            "status": "needs_review"
+        },
+        {
+            "original": "Medium fat meat",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Meat type and fat percentage are unclear."
+        },
+        {
+            "original": "Sea bass, scaled and gutted or in fillets",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Sea bass, scaled and gutted or in fillets",
+                    "id": "ING058",
+                    "canonical_name": "sea bass",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "Meat",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Meat type is not specified."
+        },
+        {
+            "original": "wheat",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Needs a more specific ingredient form."
+        },
+        {
+            "original": "Vine leaves",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "grape leaves",
+                    "id": null,
+                    "canonical_name": null,
+                    "status": "needs_review"
+                }
+            ],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "No reliable canonical ingredient match found."
+        },
+        {
+            "original": "meat",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "Meat type is not specified."
+        },
+        {
+            "original": "Shoulder of lamb",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "Shoulder of lamb",
+                    "id": "ING023",
+                    "canonical_name": "lamb",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        },
+        {
+            "original": "fresh white haricot beans",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "fresh white haricot beans",
+                    "id": null,
+                    "canonical_name": null,
+                    "status": "needs_review"
+                }
+            ],
+            "alternatives": [],
+            "status": "needs_review",
+            "review_reason": "No reliable canonical ingredient match found."
+        },
+        {
+            "original": "500 ml water or chicken stock",
+            "occurrences": 1,
+            "components": [],
+            "alternatives": [
+                {
+                    "original": "water",
+                    "id": "ING020",
+                    "canonical_name": "water",
+                    "status": "matched"
+                },
+                {
+                    "original": "chicken stock",
+                    "id": null,
+                    "canonical_name": null,
+                    "status": "needs_review"
+                }
+            ],
+            "status": "needs_review"
+        },
+        {
+            "original": "free-range chicken",
+            "occurrences": 1,
+            "components": [
+                {
+                    "original": "free-range chicken",
+                    "id": "ING057",
+                    "canonical_name": "chicken",
+                    "status": "matched"
+                }
+            ],
+            "alternatives": [],
+            "status": "matched"
+        }
+    ]
+}
