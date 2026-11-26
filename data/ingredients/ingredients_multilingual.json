@@ -1288,6 +1288,39 @@
         "ar": [],
         "fr": []
       }
-    }
+    },
+
+{
+  "id": "ING101",
+  "names": {
+    "en": ["apple", "apples", "fresh apple", "red apple", "green apple"],
+    "ar": ["تفاح", "تفاحة"],
+    "fr": ["pomme", "pommes"]
+  }
+},
+{
+  "id": "ING102",
+  "names": {
+    "en": ["banana", "bananas", "ripe banana"],
+    "ar": ["موز", "موزة"],
+    "fr": ["banane", "bananes"]
+  }
+},
+{
+  "id": "ING103",
+  "names": {
+    "en": ["grape", "grapes", "red grapes", "green grapes"],
+    "ar": ["عنب"],
+    "fr": ["raisin", "raisins"]
+  }
+},
+{
+  "id": "ING104",
+  "names": {
+    "en": ["orange", "oranges", "fresh orange", "whole orange"],
+    "ar": ["برتقال", "برتقالة"],
+    "fr": ["orange", "oranges"]
+  }
+}
   ]
 }
